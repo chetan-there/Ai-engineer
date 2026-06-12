@@ -1,0 +1,33 @@
+# ── Web Framework ──────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ── Document Loading ───────────────────────────
+pypdf==4.2.0
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-openai==0.1.14
+
+# ── Embeddings ─────────────────────────────────
+sentence-transformers==3.0.1
+
+# ── Vector Store ───────────────────────────────
+faiss-cpu==1.8.0
+
+# ── BM25 ───────────────────────────────────────
+rank-bm25==0.2.2
+
+# ── LLM ────────────────────────────────────────
+openai==1.35.3
+
+# ── Evaluation ─────────────────────────────────
+ragas==0.1.9
+datasets==2.20.0
+
+# ── Utilities ──────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+numpy==1.26.4
+tqdm==4.66.4

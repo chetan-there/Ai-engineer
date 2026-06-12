@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CUST-001",
+    "name": "Customer 1",
+    "email": "customer1@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-002",
+    "name": "Customer 2",
+    "email": "customer2@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-003",
+    "name": "Customer 3",
+    "email": "customer3@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-004",
+    "name": "Customer 4",
+    "email": "customer4@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-005",
+    "name": "Customer 5",
+    "email": "customer5@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-006",
+    "name": "Customer 6",
+    "email": "customer6@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-007",
+    "name": "Customer 7",
+    "email": "customer7@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-008",
+    "name": "Customer 8",
+    "email": "customer8@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-009",
+    "name": "Customer 9",
+    "email": "customer9@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-010",
+    "name": "Customer 10",
+    "email": "customer10@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-011",
+    "name": "Customer 11",
+    "email": "customer11@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-012",
+    "name": "Customer 12",
+    "email": "customer12@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-013",
+    "name": "Customer 13",
+    "email": "customer13@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-014",
+    "name": "Customer 14",
+    "email": "customer14@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-015",
+    "name": "Customer 15",
+    "email": "customer15@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-016",
+    "name": "Customer 16",
+    "email": "customer16@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-017",
+    "name": "Customer 17",
+    "email": "customer17@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-018",
+    "name": "Customer 18",
+    "email": "customer18@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-019",
+    "name": "Customer 19",
+    "email": "customer19@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-020",
+    "name": "Customer 20",
+    "email": "customer20@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-021",
+    "name": "Customer 21",
+    "email": "customer21@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-022",
+    "name": "Customer 22",
+    "email": "customer22@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-023",
+    "name": "Customer 23",
+    "email": "customer23@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-024",
+    "name": "Customer 24",
+    "email": "customer24@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-025",
+    "name": "Customer 25",
+    "email": "customer25@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-026",
+    "name": "Customer 26",
+    "email": "customer26@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-027",
+    "name": "Customer 27",
+    "email": "customer27@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-028",
+    "name": "Customer 28",
+    "email": "customer28@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-029",
+    "name": "Customer 29",
+    "email": "customer29@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-030",
+    "name": "Customer 30",
+    "email": "customer30@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-031",
+    "name": "Customer 31",
+    "email": "customer31@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-032",
+    "name": "Customer 32",
+    "email": "customer32@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-033",
+    "name": "Customer 33",
+    "email": "customer33@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-034",
+    "name": "Customer 34",
+    "email": "customer34@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-035",
+    "name": "Customer 35",
+    "email": "customer35@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-036",
+    "name": "Customer 36",
+    "email": "customer36@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-037",
+    "name": "Customer 37",
+    "email": "customer37@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-038",
+    "name": "Customer 38",
+    "email": "customer38@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-039",
+    "name": "Customer 39",
+    "email": "customer39@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-040",
+    "name": "Customer 40",
+    "email": "customer40@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-041",
+    "name": "Customer 41",
+    "email": "customer41@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-042",
+    "name": "Customer 42",
+    "email": "customer42@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-043",
+    "name": "Customer 43",
+    "email": "customer43@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-044",
+    "name": "Customer 44",
+    "email": "customer44@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-045",
+    "name": "Customer 45",
+    "email": "customer45@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-046",
+    "name": "Customer 46",
+    "email": "customer46@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-047",
+    "name": "Customer 47",
+    "email": "customer47@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-048",
+    "name": "Customer 48",
+    "email": "customer48@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-049",
+    "name": "Customer 49",
+    "email": "customer49@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-050",
+    "name": "Customer 50",
+    "email": "customer50@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-051",
+    "name": "Customer 51",
+    "email": "customer51@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-052",
+    "name": "Customer 52",
+    "email": "customer52@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-053",
+    "name": "Customer 53",
+    "email": "customer53@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-054",
+    "name": "Customer 54",
+    "email": "customer54@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-055",
+    "name": "Customer 55",
+    "email": "customer55@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-056",
+    "name": "Customer 56",
+    "email": "customer56@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-057",
+    "name": "Customer 57",
+    "email": "customer57@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-058",
+    "name": "Customer 58",
+    "email": "customer58@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-059",
+    "name": "Customer 59",
+    "email": "customer59@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-060",
+    "name": "Customer 60",
+    "email": "customer60@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-061",
+    "name": "Customer 61",
+    "email": "customer61@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-062",
+    "name": "Customer 62",
+    "email": "customer62@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-063",
+    "name": "Customer 63",
+    "email": "customer63@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-064",
+    "name": "Customer 64",
+    "email": "customer64@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-065",
+    "name": "Customer 65",
+    "email": "customer65@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-066",
+    "name": "Customer 66",
+    "email": "customer66@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-067",
+    "name": "Customer 67",
+    "email": "customer67@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-068",
+    "name": "Customer 68",
+    "email": "customer68@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-069",
+    "name": "Customer 69",
+    "email": "customer69@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-070",
+    "name": "Customer 70",
+    "email": "customer70@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-071",
+    "name": "Customer 71",
+    "email": "customer71@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-072",
+    "name": "Customer 72",
+    "email": "customer72@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-073",
+    "name": "Customer 73",
+    "email": "customer73@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-074",
+    "name": "Customer 74",
+    "email": "customer74@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-075",
+    "name": "Customer 75",
+    "email": "customer75@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-076",
+    "name": "Customer 76",
+    "email": "customer76@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-077",
+    "name": "Customer 77",
+    "email": "customer77@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-078",
+    "name": "Customer 78",
+    "email": "customer78@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-079",
+    "name": "Customer 79",
+    "email": "customer79@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-080",
+    "name": "Customer 80",
+    "email": "customer80@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-081",
+    "name": "Customer 81",
+    "email": "customer81@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-082",
+    "name": "Customer 82",
+    "email": "customer82@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-083",
+    "name": "Customer 83",
+    "email": "customer83@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-084",
+    "name": "Customer 84",
+    "email": "customer84@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-085",
+    "name": "Customer 85",
+    "email": "customer85@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-086",
+    "name": "Customer 86",
+    "email": "customer86@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-087",
+    "name": "Customer 87",
+    "email": "customer87@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-088",
+    "name": "Customer 88",
+    "email": "customer88@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-089",
+    "name": "Customer 89",
+    "email": "customer89@demo.example",
+    "country": "UK"
+  },
+  {
+    "id": "CUST-090",
+    "name": "Customer 90",
+    "email": "customer90@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-091",
+    "name": "Customer 91",
+    "email": "customer91@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-092",
+    "name": "Customer 92",
+    "email": "customer92@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-093",
+    "name": "Customer 93",
+    "email": "customer93@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-094",
+    "name": "Customer 94",
+    "email": "customer94@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-095",
+    "name": "Customer 95",
+    "email": "customer95@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-096",
+    "name": "Customer 96",
+    "email": "customer96@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-097",
+    "name": "Customer 97",
+    "email": "customer97@demo.example",
+    "country": "US"
+  },
+  {
+    "id": "CUST-098",
+    "name": "Customer 98",
+    "email": "customer98@demo.example",
+    "country": "DE"
+  },
+  {
+    "id": "CUST-099",
+    "name": "Customer 99",
+    "email": "customer99@demo.example",
+    "country": "IN"
+  },
+  {
+    "id": "CUST-100",
+    "name": "Customer 100",
+    "email": "customer100@demo.example",
+    "country": "DE"
+  }
+]

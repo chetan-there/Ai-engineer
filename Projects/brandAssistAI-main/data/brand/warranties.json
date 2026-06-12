@@ -1,0 +1,152 @@
+[
+  {
+    "product_id": "nimbus-ac-1500",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "toastpro-2s",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "thermoboil-k1",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "microchef-20l",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "aeropure-220",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "dustmate-v10",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "wavehub-r5",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "sonicbar-s20",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "breezefan-f7",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "blendgo-b2",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "nimbus-ac-1500-11",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "toastpro-2s-12",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "thermoboil-k1-13",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "microchef-20l-14",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "aeropure-220-15",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "dustmate-v10-16",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "wavehub-r5-17",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "sonicbar-s20-18",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "breezefan-f7-19",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "blendgo-b2-20",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "nimbus-ac-1500-21",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "toastpro-2s-22",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "thermoboil-k1-23",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "microchef-20l-24",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "aeropure-220-25",
+    "months": 12,
+    "requires_order": 1
+  },
+  {
+    "product_id": "dustmate-v10-26",
+    "months": 18,
+    "requires_order": 1
+  },
+  {
+    "product_id": "wavehub-r5-27",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "sonicbar-s20-28",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "breezefan-f7-29",
+    "months": 24,
+    "requires_order": 1
+  },
+  {
+    "product_id": "blendgo-b2-30",
+    "months": 12,
+    "requires_order": 1
+  }
+]

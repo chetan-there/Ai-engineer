@@ -1,0 +1,82 @@
+[
+  {
+    "image_id": "microchef-front",
+    "source_url": "https://example.com/public-reference/microchef-front",
+    "product_id": "microchef-20l",
+    "category": "kitchen",
+    "quality": "clear",
+    "observations": ["countertop microwave oven", "front control panel", "door closed"]
+  },
+  {
+    "image_id": "microchef-door-open",
+    "source_url": "https://example.com/public-reference/microchef-door-open",
+    "product_id": "microchef-20l",
+    "category": "kitchen",
+    "quality": "clear",
+    "observations": ["microwave oven", "door open", "turntable visible"]
+  },
+  {
+    "image_id": "wavehub-router",
+    "source_url": "https://example.com/public-reference/wavehub-router",
+    "product_id": "wavehub-r5",
+    "category": "networking",
+    "quality": "clear",
+    "observations": ["wifi router", "status LEDs", "external antennas"]
+  },
+  {
+    "image_id": "nimbus-ac-front",
+    "source_url": "https://example.com/public-reference/nimbus-ac-front",
+    "product_id": "nimbus-ac-1500",
+    "category": "climate",
+    "quality": "clear",
+    "observations": ["split air conditioner indoor unit", "front louver", "display panel"]
+  },
+  {
+    "image_id": "thermoboil-kettle",
+    "source_url": "https://example.com/public-reference/thermoboil-kettle",
+    "product_id": "thermoboil-k1",
+    "category": "kitchen",
+    "quality": "clear",
+    "observations": ["electric kettle", "lid partly open", "water near max line"]
+  },
+  {
+    "image_id": "toastpro-toaster",
+    "source_url": "https://example.com/public-reference/toastpro-toaster",
+    "product_id": "toastpro-2s",
+    "category": "kitchen",
+    "quality": "clear",
+    "observations": ["two-slice toaster", "browning dial", "crumb tray"]
+  },
+  {
+    "image_id": "dustmate-vacuum",
+    "source_url": "https://example.com/public-reference/dustmate-vacuum",
+    "product_id": "dustmate-v10",
+    "category": "homecare",
+    "quality": "clear",
+    "observations": ["cordless stick vacuum", "dust bin", "floor brush head"]
+  },
+  {
+    "image_id": "unsupported-thirdparty",
+    "source_url": "https://example.com/public-reference/unsupported-thirdparty",
+    "product_id": null,
+    "category": "unsupported",
+    "quality": "clear",
+    "observations": ["appliance not in BrandAssist catalog"]
+  },
+  {
+    "image_id": "blurry-appliance",
+    "source_url": "https://example.com/public-reference/blurry-appliance",
+    "product_id": null,
+    "category": "unknown",
+    "quality": "blurry",
+    "observations": ["low detail", "label unreadable"]
+  },
+  {
+    "image_id": "ambiguous-fan-claim",
+    "source_url": "https://example.com/public-reference/ambiguous-fan-claim",
+    "product_id": "breezefan-f7",
+    "category": "climate",
+    "quality": "ambiguous",
+    "observations": ["tower fan visible", "no visible damage", "claim cannot be confirmed from image"]
+  }
+]

@@ -1,0 +1,2 @@
+This folder stores persisted FAISS index and BM25 metadata.
+Files here are excluded from git via .gitignore.

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HybridSeek AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --surface2: #1a1a24;
+    --border: #2a2a3a;
+    --accent: #6c63ff;
+    --accent2: #00d4aa;
+    --accent3: #ff6b6b;
+    --text: #e8e8f0;
+    --muted: #7070a0;
+    --font-display: 'Syne', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-display);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Background grid */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image:
+      linear-gradient(rgba(108,99,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(108,99,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .app { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  /* Header */
+  header { text-align: center; margin-bottom: 48px; }
+  .logo {
+    display: inline-flex; align-items: center; gap: 12px;
+    margin-bottom: 16px;
+  }
+  .logo-icon {
+    width: 48px; height: 48px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border-radius: 14px;
+    display: grid; place-items: center;
+    font-size: 24px;
+    box-shadow: 0 0 30px rgba(108,99,255,0.4);
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    background: linear-gradient(135deg, #fff 30%, var(--accent));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+  }
+  .tagline { color: var(--muted); font-size: 0.95rem; letter-spacing: 0.5px; margin-top: 4px; }
+
+  /* Pills */
+  .pills { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+  .pill {
+    padding: 4px 12px; border-radius: 100px;
+    font-size: 0.75rem; font-family: var(--font-mono);
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .pill.accent { border-color: var(--accent); color: var(--accent); }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 20px;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: rgba(108,99,255,0.3); }
+  .card-title {
+    font-size: 0.75rem; font-family: var(--font-mono);
+    color: var(--accent); letter-spacing: 2px; text-transform: uppercase;
+    margin-bottom: 16px; display: flex; align-items: center; gap: 8px;
+  }
+  .card-title::before {
+    content: ''; width: 6px; height: 6px;
+    background: var(--accent); border-radius: 50%;
+    box-shadow: 0 0 8px var(--accent);
+  }
+
+  /* Upload area */
+  .upload-zone {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .upload-zone:hover, .upload-zone.drag-over {
+    border-color: var(--accent);
+    background: rgba(108,99,255,0.05);
+  }
+  .upload-zone input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+  .upload-icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .upload-text { color: var(--muted); font-size: 0.9rem; }
+  .upload-text strong { color: var(--text); }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 12px 24px; border-radius: 10px;
+    font-family: var(--font-display); font-weight: 600;
+    font-size: 0.9rem; cursor: pointer;
+    border: none; transition: all 0.2s;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), #8b82ff);
+    color: white;
+    box-shadow: 0 4px 20px rgba(108,99,255,0.3);
+  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 28px rgba(108,99,255,0.45); }
+  .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .btn-ghost { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Status badge */
+  .status-bar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-radius: 8px;
+    background: var(--surface2); font-size: 0.8rem;
+    margin-top: 12px; font-family: var(--font-mono);
+  }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .status-dot.green { background: var(--accent2); box-shadow: 0 0 8px var(--accent2); }
+  .status-dot.red { background: var(--accent3); }
+  .status-dot.yellow { background: #ffd93d; }
+  .status-dot.pulse { animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  /* Question input */
+  .question-wrap { position: relative; }
+  textarea {
+    width: 100%; padding: 16px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 10px; color: var(--text);
+    font-family: var(--font-display); font-size: 0.95rem;
+    resize: vertical; min-height: 100px;
+    transition: border-color 0.2s; outline: none;
+  }
+  textarea:focus { border-color: var(--accent); }
+  textarea::placeholder { color: var(--muted); }
+
+  .ask-row { display: flex; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+
+  /* Answer panel */
+  .answer-panel {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+  }
+  .answer-panel.visible { display: block; animation: fadeIn 0.3s; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+  .answer-text {
+    line-height: 1.7; font-size: 0.95rem;
+    white-space: pre-wrap; color: var(--text);
+  }
+  .answer-text strong { color: var(--accent2); }
+
+  /* Citations */
+  .citations { margin-top: 20px; }
+  .citations-title {
+    font-size: 0.75rem; font-family: var(--font-mono);
+    color: var(--muted); text-transform: uppercase;
+    letter-spacing: 1.5px; margin-bottom: 10px;
+  }
+  .citation-chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 12px; border-radius: 6px;
+    background: var(--surface); border: 1px solid var(--border);
+    font-size: 0.78rem; font-family: var(--font-mono);
+    color: var(--muted); margin: 4px;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .citation-chip:hover { border-color: var(--accent2); color: var(--accent2); }
+  .citation-number {
+    background: var(--accent2); color: #000;
+    width: 18px; height: 18px; border-radius: 4px;
+    display: grid; place-items: center;
+    font-size: 0.7rem; font-weight: 700;
+  }
+
+  /* Timing row */
+  .timing-row {
+    display: flex; gap: 16px; margin-top: 16px;
+    padding-top: 16px; border-top: 1px solid var(--border);
+  }
+  .timing-chip {
+    font-family: var(--font-mono); font-size: 0.75rem;
+    color: var(--muted); display: flex; align-items: center; gap: 5px;
+  }
+  .timing-val { color: var(--accent2); }
+
+  /* Error */
+  .error-box {
+    background: rgba(255,107,107,0.08); border: 1px solid rgba(255,107,107,0.3);
+    border-radius: 10px; padding: 14px 18px;
+    color: var(--accent3); font-size: 0.88rem;
+    margin-top: 12px; display: none;
+  }
+  .error-box.visible { display: block; animation: fadeIn 0.2s; }
+
+  /* Spinner */
+  .spinner {
+    width: 16px; height: 16px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-top-color: white;
+    animation: spin 0.7s linear infinite;
+    display: none;
+  }
+  .spinner.visible { display: block; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Config section */
+  .config-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media(max-width: 560px) { .config-grid { grid-template-columns: 1fr; } }
+  .config-item label {
+    display: block; font-size: 0.75rem; font-family: var(--font-mono);
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .config-item input, .config-item select {
+    width: 100%; padding: 8px 12px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text);
+    font-family: var(--font-mono); font-size: 0.85rem;
+    outline: none; transition: border-color 0.2s;
+  }
+  .config-item input:focus, .config-item select:focus { border-color: var(--accent); }
+
+  /* Section divider */
+  .divider {
+    display: flex; align-items: center; gap: 16px; margin: 28px 0;
+    color: var(--muted); font-size: 0.75rem; font-family: var(--font-mono);
+  }
+  .divider::before, .divider::after {
+    content: ''; flex: 1; height: 1px; background: var(--border);
+  }
+
+  /* Chunk preview modal */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+    display: none; z-index: 100; place-items: center;
+  }
+  .modal-overlay.visible { display: grid; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 16px; padding: 28px;
+    max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto;
+    animation: fadeIn 0.2s;
+  }
+  .modal-title {
+    font-size: 0.8rem; font-family: var(--font-mono);
+    color: var(--accent2); margin-bottom: 12px; letter-spacing: 1px;
+  }
+  .modal-text {
+    font-size: 0.88rem; line-height: 1.7; color: var(--text);
+    white-space: pre-wrap;
+  }
+  .modal-close {
+    float: right; cursor: pointer; color: var(--muted);
+    font-size: 1.2rem; line-height: 1;
+  }
+  .modal-close:hover { color: var(--accent3); }
+
+  /* Score bars */
+  .score-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+  @media(max-width: 560px) { .score-grid { grid-template-columns: 1fr; } }
+  .score-card { background: var(--surface2); border-radius: 10px; padding: 14px; border: 1px solid var(--border); }
+  .score-label { font-size: 0.7rem; font-family: var(--font-mono); color: var(--muted); margin-bottom: 8px; }
+  .score-val { font-size: 1.6rem; font-weight: 800; color: var(--accent2); }
+  .score-bar { height: 4px; background: var(--border); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+  .score-fill { height: 100%; border-radius: 2px; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width 0.8s cubic-bezier(.4,0,.2,1); }
+
+  /* API URL config */
+  .api-input {
+    width: 100%; padding: 8px 12px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--muted);
+    font-family: var(--font-mono); font-size: 0.8rem; outline: none;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🔍</div>
+      <h1>HybridSeek AI</h1>
+    </div>
+    <p class="tagline">BM25 + Vector Hybrid RAG · FastAPI · Sentence Transformers · Ragas</p>
+    <div class="pills">
+      <span class="pill accent">BM25</span>
+      <span class="pill accent">FAISS</span>
+      <span class="pill">Hybrid Retrieval</span>
+      <span class="pill">Citation Grounding</span>
+      <span class="pill">Ragas Eval</span>
+    </div>
+  </header>
+
+  <!-- API Config -->
+  <div class="card">
+    <div class="card-title">API Connection</div>
+    <input class="api-input" id="apiUrl" value="http://localhost:8000" placeholder="http://localhost:8000" />
+    <div class="status-bar">
+      <div class="status-dot" id="connDot" style="background:var(--muted)"></div>
+      <span id="connText" style="color:var(--muted)">Not connected — enter API URL and check status</span>
+      <button class="btn btn-ghost" style="margin-left:auto;padding:6px 14px;font-size:0.78rem" onclick="checkHealth()">Check</button>
+    </div>
+  </div>
+
+  <!-- Upload -->
+  <div class="card">
+    <div class="card-title">01 — Upload Document</div>
+    <div class="upload-zone" id="dropZone">
+      <input type="file" id="fileInput" accept=".pdf,.txt" />
+      <div class="upload-icon">📄</div>
+      <p class="upload-text"><strong>Drop your PDF or TXT here</strong><br>or click to browse</p>
+    </div>
+    <div class="error-box" id="uploadError"></div>
+    <div class="status-bar" id="uploadStatus" style="display:none">
+      <div class="status-dot yellow pulse" id="uploadDot"></div>
+      <span id="uploadStatusText">Uploading...</span>
+    </div>
+  </div>
+
+  <div class="divider">document indexed</div>
+
+  <!-- Ask -->
+  <div class="card">
+    <div class="card-title">02 — Ask a Question</div>
+    <div class="question-wrap">
+      <textarea id="questionInput" placeholder="e.g. What are the main findings of this document?&#10;e.g. Summarize section 3&#10;e.g. What does the author say about neural networks?"></textarea>
+    </div>
+    <div class="ask-row">
+      <button class="btn btn-primary" id="askBtn" onclick="askQuestion()">
+        <div class="spinner" id="askSpinner"></div>
+        <span id="askBtnText">⚡ Ask</span>
+      </button>
+      <button class="btn btn-ghost" onclick="clearAnswer()">Clear</button>
+    </div>
+    <div class="error-box" id="askError"></div>
+
+    <div class="answer-panel" id="answerPanel">
+      <div class="card-title">Answer</div>
+      <div class="answer-text" id="answerText"></div>
+      <div class="citations" id="citationsArea"></div>
+      <div class="timing-row">
+        <div class="timing-chip">🔍 Retrieval: <span class="timing-val" id="retTime">—</span></div>
+        <div class="timing-chip">🤖 Generation: <span class="timing-val" id="genTime">—</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">optional evaluation</div>
+
+  <!-- Ragas Eval -->
+  <div class="card">
+    <div class="card-title">03 — Ragas Evaluation</div>
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:16px;line-height:1.6">
+      Run automated quality metrics on your RAG pipeline. Requires <code style="color:var(--accent)">ground_truth</code> answers and an OpenAI key.
+    </p>
+    <textarea id="evalInput" style="min-height:140px;font-family:var(--font-mono);font-size:0.8rem" placeholder='[
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is...",
+    "contexts": ["ML is a subset of AI..."],
+    "ground_truth": "Machine learning is a method..."
+  }
+]'></textarea>
+    <button class="btn btn-primary" style="margin-top:12px" onclick="runEval()">📊 Run Evaluation</button>
+    <div class="error-box" id="evalError"></div>
+    <div class="score-grid" id="scoreGrid" style="display:none"></div>
+  </div>
+
+</div>
+
+<!-- Chunk modal -->
+<div class="modal-overlay" id="chunkModal" onclick="closeModal(event)">
+  <div class="modal">
+    <span class="modal-close" onclick="document.getElementById('chunkModal').classList.remove('visible')">✕</span>
+    <div class="modal-title" id="modalTitle"></div>
+    <div class="modal-text" id="modalText"></div>
+  </div>
+</div>
+
+<script>
+  const API = () => document.getElementById('apiUrl').value.replace(/\/$/, '');
+  let lastCitations = [];
+
+  // ── Health check ────────────────────────────────────────────────────────────
+  async function checkHealth() {
+    const dot = document.getElementById('connDot');
+    const txt = document.getElementById('connText');
+    try {
+      const res = await fetch(`${API()}/status`);
+      const data = await res.json();
+      dot.className = 'status-dot green';
+      txt.style.color = 'var(--accent2)';
+      const chunks = data.total_chunks;
+      txt.textContent = chunks > 0
+        ? `✅ Connected · ${chunks} chunks indexed · Ready to query`
+        : `✅ Connected · No document indexed yet — upload one above`;
+    } catch {
+      dot.className = 'status-dot red';
+      txt.style.color = 'var(--accent3)';
+      txt.textContent = `❌ Cannot reach ${API()} — is the server running?`;
+    }
+  }
+
+  // ── Drag and drop ───────────────────────────────────────────────────────────
+  const dropZone = document.getElementById('dropZone');
+  dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault(); dropZone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) uploadFile(file);
+  });
+  document.getElementById('fileInput').addEventListener('change', e => {
+    if (e.target.files[0]) uploadFile(e.target.files[0]);
+  });
+
+  // ── Upload ──────────────────────────────────────────────────────────────────
+  async function uploadFile(file) {
+    const errBox = document.getElementById('uploadError');
+    const statusBar = document.getElementById('uploadStatus');
+    const statusTxt = document.getElementById('uploadStatusText');
+    const dot = document.getElementById('uploadDot');
+
+    errBox.classList.remove('visible');
+    statusBar.style.display = 'flex';
+    dot.className = 'status-dot yellow pulse';
+    statusTxt.textContent = `Uploading ${file.name}...`;
+
+    const form = new FormData();
+    form.append('file', file);
+
+    try {
+      const res = await fetch(`${API()}/upload`, { method: 'POST', body: form });
+      const data = await res.json();
+
+      if (!res.ok) throw new Error(data.detail || 'Upload failed');
+
+      dot.className = 'status-dot green';
+      dot.style.animation = 'none';
+      statusTxt.textContent = `✅ ${data.filename} · ${data.pages_processed} pages · ${data.chunks_created} chunks · ${data.processing_time_ms}ms`;
+      checkHealth();
+    } catch (err) {
+      statusBar.style.display = 'none';
+      errBox.textContent = `Upload error: ${err.message}`;
+      errBox.classList.add('visible');
+    }
+  }
+
+  // ── Ask ─────────────────────────────────────────────────────────────────────
+  async function askQuestion() {
+    const q = document.getElementById('questionInput').value.trim();
+    if (!q) return;
+
+    const btn = document.getElementById('askBtn');
+    const spinner = document.getElementById('askSpinner');
+    const btnTxt = document.getElementById('askBtnText');
+    const errBox = document.getElementById('askError');
+
+    errBox.classList.remove('visible');
+    btn.disabled = true;
+    spinner.classList.add('visible');
+    btnTxt.textContent = 'Thinking...';
+
+    try {
+      const res = await fetch(`${API()}/ask`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: q }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.detail || 'Request failed');
+
+      displayAnswer(data);
+    } catch (err) {
+      errBox.textContent = `Error: ${err.message}`;
+      errBox.classList.add('visible');
+    } finally {
+      btn.disabled = false;
+      spinner.classList.remove('visible');
+      btnTxt.textContent = '⚡ Ask';
+    }
+  }
+
+  function displayAnswer(data) {
+    lastCitations = data.citations || [];
+    document.getElementById('answerText').textContent = data.answer;
+    document.getElementById('retTime').textContent = `${data.retrieval_time_ms}ms`;
+    document.getElementById('genTime').textContent = `${data.generation_time_ms}ms`;
+
+    const citArea = document.getElementById('citationsArea');
+    if (lastCitations.length) {
+      citArea.innerHTML = `<div class="citations-title">Sources Used</div>` +
+        lastCitations.map(c => `
+          <span class="citation-chip" onclick="showChunk(${c.citation_number - 1})">
+            <span class="citation-number">${c.citation_number}</span>
+            ${c.source} · p${c.page}
+            <span style="color:var(--accent);margin-left:4px">${(c.hybrid_score * 100).toFixed(0)}%</span>
+          </span>`).join('');
+    } else {
+      citArea.innerHTML = '';
+    }
+
+    document.getElementById('answerPanel').classList.add('visible');
+  }
+
+  function showChunk(idx) {
+    const c = lastCitations[idx];
+    if (!c) return;
+    document.getElementById('modalTitle').textContent = `Source ${c.citation_number} · ${c.source} · Page ${c.page}`;
+    document.getElementById('modalText').textContent = c.text_preview;
+    document.getElementById('chunkModal').classList.add('visible');
+  }
+
+  function closeModal(e) {
+    if (e.target.id === 'chunkModal') document.getElementById('chunkModal').classList.remove('visible');
+  }
+
+  function clearAnswer() {
+    document.getElementById('answerPanel').classList.remove('visible');
+    document.getElementById('questionInput').value = '';
+    document.getElementById('askError').classList.remove('visible');
+  }
+
+  // ── Eval ────────────────────────────────────────────────────────────────────
+  async function runEval() {
+    const raw = document.getElementById('evalInput').value.trim();
+    const errBox = document.getElementById('evalError');
+    const scoreGrid = document.getElementById('scoreGrid');
+    errBox.classList.remove('visible');
+    scoreGrid.style.display = 'none';
+
+    let testCases;
+    try { testCases = JSON.parse(raw); }
+    catch { errBox.textContent = 'Invalid JSON in test cases.'; errBox.classList.add('visible'); return; }
+
+    try {
+      const res = await fetch(`${API()}/evaluate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ test_cases: testCases }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.detail);
+
+      renderScores(data.scores);
+    } catch (err) {
+      errBox.textContent = `Eval error: ${err.message}`;
+      errBox.classList.add('visible');
+    }
+  }
+
+  function renderScores(scores) {
+    const grid = document.getElementById('scoreGrid');
+    const labels = {
+      faithfulness: 'Faithfulness',
+      answer_relevancy: 'Relevancy',
+      context_precision: 'Precision',
+    };
+    grid.innerHTML = Object.entries(scores).map(([k, v]) => `
+      <div class="score-card">
+        <div class="score-label">${labels[k] || k}</div>
+        <div class="score-val">${(v * 100).toFixed(1)}%</div>
+        <div class="score-bar"><div class="score-fill" style="width:${v*100}%"></div></div>
+      </div>`).join('');
+    grid.style.display = 'grid';
+  }
+
+  // ── Enter to submit ─────────────────────────────────────────────────────────
+  document.getElementById('questionInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); askQuestion(); }
+  });
+
+  // Auto-check on load
+  setTimeout(checkHealth, 500);
+</script>
+</body>
+</html>

@@ -1,0 +1,802 @@
+[
+  {
+    "order_id": "A2000",
+    "customer_id": "CUST-077",
+    "product_id": "thermoboil-k1-13",
+    "status": "processing",
+    "delivery_eta": "2025-10-09",
+    "purchase_date": "2025-10-03"
+  },
+  {
+    "order_id": "A2001",
+    "customer_id": "CUST-093",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2026-04-08",
+    "purchase_date": "2026-04-02"
+  },
+  {
+    "order_id": "A2002",
+    "customer_id": "CUST-038",
+    "product_id": "microchef-20l",
+    "status": "returned",
+    "delivery_eta": "2025-10-24",
+    "purchase_date": "2025-10-20"
+  },
+  {
+    "order_id": "A2003",
+    "customer_id": "CUST-093",
+    "product_id": "nimbus-ac-1500",
+    "status": "shipped",
+    "delivery_eta": "2025-06-02",
+    "purchase_date": "2025-05-27"
+  },
+  {
+    "order_id": "A2004",
+    "customer_id": "CUST-014",
+    "product_id": "wavehub-r5-17",
+    "status": "shipped",
+    "delivery_eta": "2025-07-20",
+    "purchase_date": "2025-07-14"
+  },
+  {
+    "order_id": "A2005",
+    "customer_id": "CUST-048",
+    "product_id": "aeropure-220",
+    "status": "processing",
+    "delivery_eta": "2025-05-09",
+    "purchase_date": "2025-05-05"
+  },
+  {
+    "order_id": "A2006",
+    "customer_id": "CUST-042",
+    "product_id": "blendgo-b2-20",
+    "status": "processing",
+    "delivery_eta": "2025-09-24",
+    "purchase_date": "2025-09-22"
+  },
+  {
+    "order_id": "A2007",
+    "customer_id": "CUST-047",
+    "product_id": "blendgo-b2-30",
+    "status": "processing",
+    "delivery_eta": "2025-12-29",
+    "purchase_date": "2025-12-24"
+  },
+  {
+    "order_id": "A2008",
+    "customer_id": "CUST-073",
+    "product_id": "sonicbar-s20",
+    "status": "returned",
+    "delivery_eta": "2026-04-23",
+    "purchase_date": "2026-04-20"
+  },
+  {
+    "order_id": "A2009",
+    "customer_id": "CUST-009",
+    "product_id": "wavehub-r5-27",
+    "status": "shipped",
+    "delivery_eta": "2025-05-10",
+    "purchase_date": "2025-05-06"
+  },
+  {
+    "order_id": "A2010",
+    "customer_id": "CUST-061",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2025-08-26",
+    "purchase_date": "2025-08-22"
+  },
+  {
+    "order_id": "A2011",
+    "customer_id": "CUST-078",
+    "product_id": "wavehub-r5-17",
+    "status": "shipped",
+    "delivery_eta": "2025-10-31",
+    "purchase_date": "2025-10-26"
+  },
+  {
+    "order_id": "A2012",
+    "customer_id": "CUST-040",
+    "product_id": "thermoboil-k1-23",
+    "status": "returned",
+    "delivery_eta": "2025-11-14",
+    "purchase_date": "2025-11-07"
+  },
+  {
+    "order_id": "A2013",
+    "customer_id": "CUST-067",
+    "product_id": "breezefan-f7-29",
+    "status": "shipped",
+    "delivery_eta": "2025-10-14",
+    "purchase_date": "2025-10-11"
+  },
+  {
+    "order_id": "A2014",
+    "customer_id": "CUST-009",
+    "product_id": "sonicbar-s20",
+    "status": "shipped",
+    "delivery_eta": "2025-12-10",
+    "purchase_date": "2025-12-08"
+  },
+  {
+    "order_id": "A2015",
+    "customer_id": "CUST-029",
+    "product_id": "breezefan-f7-19",
+    "status": "processing",
+    "delivery_eta": "2026-05-30",
+    "purchase_date": "2026-05-27"
+  },
+  {
+    "order_id": "A2016",
+    "customer_id": "CUST-009",
+    "product_id": "sonicbar-s20",
+    "status": "processing",
+    "delivery_eta": "2026-05-21",
+    "purchase_date": "2026-05-14"
+  },
+  {
+    "order_id": "A2017",
+    "customer_id": "CUST-031",
+    "product_id": "wavehub-r5-17",
+    "status": "shipped",
+    "delivery_eta": "2026-01-17",
+    "purchase_date": "2026-01-08"
+  },
+  {
+    "order_id": "A2018",
+    "customer_id": "CUST-017",
+    "product_id": "sonicbar-s20-18",
+    "status": "shipped",
+    "delivery_eta": "2025-06-03",
+    "purchase_date": "2025-05-25"
+  },
+  {
+    "order_id": "A2019",
+    "customer_id": "CUST-061",
+    "product_id": "dustmate-v10-26",
+    "status": "processing",
+    "delivery_eta": "2025-11-08",
+    "purchase_date": "2025-11-03"
+  },
+  {
+    "order_id": "A2020",
+    "customer_id": "CUST-085",
+    "product_id": "microchef-20l",
+    "status": "returned",
+    "delivery_eta": "2025-10-29",
+    "purchase_date": "2025-10-22"
+  },
+  {
+    "order_id": "A2021",
+    "customer_id": "CUST-060",
+    "product_id": "microchef-20l-14",
+    "status": "processing",
+    "delivery_eta": "2025-05-24",
+    "purchase_date": "2025-05-22"
+  },
+  {
+    "order_id": "A2022",
+    "customer_id": "CUST-052",
+    "product_id": "toastpro-2s",
+    "status": "processing",
+    "delivery_eta": "2025-05-30",
+    "purchase_date": "2025-05-23"
+  },
+  {
+    "order_id": "A2023",
+    "customer_id": "CUST-025",
+    "product_id": "sonicbar-s20",
+    "status": "shipped",
+    "delivery_eta": "2026-03-03",
+    "purchase_date": "2026-02-22"
+  },
+  {
+    "order_id": "A2024",
+    "customer_id": "CUST-024",
+    "product_id": "microchef-20l-14",
+    "status": "shipped",
+    "delivery_eta": "2026-01-17",
+    "purchase_date": "2026-01-08"
+  },
+  {
+    "order_id": "A2025",
+    "customer_id": "CUST-010",
+    "product_id": "sonicbar-s20-28",
+    "status": "processing",
+    "delivery_eta": "2025-10-19",
+    "purchase_date": "2025-10-16"
+  },
+  {
+    "order_id": "A2026",
+    "customer_id": "CUST-070",
+    "product_id": "nimbus-ac-1500-21",
+    "status": "shipped",
+    "delivery_eta": "2026-05-26",
+    "purchase_date": "2026-05-23"
+  },
+  {
+    "order_id": "A2027",
+    "customer_id": "CUST-053",
+    "product_id": "dustmate-v10",
+    "status": "shipped",
+    "delivery_eta": "2025-10-03",
+    "purchase_date": "2025-09-24"
+  },
+  {
+    "order_id": "A2028",
+    "customer_id": "CUST-052",
+    "product_id": "sonicbar-s20-28",
+    "status": "returned",
+    "delivery_eta": "2026-05-04",
+    "purchase_date": "2026-04-30"
+  },
+  {
+    "order_id": "A2029",
+    "customer_id": "CUST-050",
+    "product_id": "nimbus-ac-1500",
+    "status": "delivered",
+    "delivery_eta": "2026-01-24",
+    "purchase_date": "2026-01-15"
+  },
+  {
+    "order_id": "A2030",
+    "customer_id": "CUST-090",
+    "product_id": "microchef-20l-14",
+    "status": "shipped",
+    "delivery_eta": "2025-05-30",
+    "purchase_date": "2025-05-21"
+  },
+  {
+    "order_id": "A2031",
+    "customer_id": "CUST-038",
+    "product_id": "wavehub-r5",
+    "status": "processing",
+    "delivery_eta": "2026-02-10",
+    "purchase_date": "2026-02-08"
+  },
+  {
+    "order_id": "A2032",
+    "customer_id": "CUST-041",
+    "product_id": "microchef-20l-24",
+    "status": "returned",
+    "delivery_eta": "2026-05-03",
+    "purchase_date": "2026-05-01"
+  },
+  {
+    "order_id": "A2033",
+    "customer_id": "CUST-068",
+    "product_id": "wavehub-r5-17",
+    "status": "processing",
+    "delivery_eta": "2026-03-13",
+    "purchase_date": "2026-03-11"
+  },
+  {
+    "order_id": "A2034",
+    "customer_id": "CUST-024",
+    "product_id": "sonicbar-s20-28",
+    "status": "shipped",
+    "delivery_eta": "2026-04-28",
+    "purchase_date": "2026-04-25"
+  },
+  {
+    "order_id": "A2035",
+    "customer_id": "CUST-016",
+    "product_id": "thermoboil-k1-13",
+    "status": "processing",
+    "delivery_eta": "2025-08-17",
+    "purchase_date": "2025-08-12"
+  },
+  {
+    "order_id": "A2036",
+    "customer_id": "CUST-011",
+    "product_id": "blendgo-b2-20",
+    "status": "delivered",
+    "delivery_eta": "2025-11-04",
+    "purchase_date": "2025-10-28"
+  },
+  {
+    "order_id": "A2037",
+    "customer_id": "CUST-086",
+    "product_id": "wavehub-r5",
+    "status": "shipped",
+    "delivery_eta": "2025-06-05",
+    "purchase_date": "2025-05-29"
+  },
+  {
+    "order_id": "A2038",
+    "customer_id": "CUST-051",
+    "product_id": "breezefan-f7",
+    "status": "returned",
+    "delivery_eta": "2026-03-30",
+    "purchase_date": "2026-03-24"
+  },
+  {
+    "order_id": "A2039",
+    "customer_id": "CUST-097",
+    "product_id": "nimbus-ac-1500-11",
+    "status": "returned",
+    "delivery_eta": "2026-04-25",
+    "purchase_date": "2026-04-23"
+  },
+  {
+    "order_id": "A2040",
+    "customer_id": "CUST-073",
+    "product_id": "blendgo-b2-20",
+    "status": "shipped",
+    "delivery_eta": "2026-04-12",
+    "purchase_date": "2026-04-09"
+  },
+  {
+    "order_id": "A2041",
+    "customer_id": "CUST-034",
+    "product_id": "wavehub-r5-17",
+    "status": "processing",
+    "delivery_eta": "2026-03-31",
+    "purchase_date": "2026-03-24"
+  },
+  {
+    "order_id": "A2042",
+    "customer_id": "CUST-032",
+    "product_id": "breezefan-f7-29",
+    "status": "shipped",
+    "delivery_eta": "2025-11-28",
+    "purchase_date": "2025-11-22"
+  },
+  {
+    "order_id": "A2043",
+    "customer_id": "CUST-070",
+    "product_id": "aeropure-220-15",
+    "status": "processing",
+    "delivery_eta": "2025-06-10",
+    "purchase_date": "2025-06-04"
+  },
+  {
+    "order_id": "A2044",
+    "customer_id": "CUST-071",
+    "product_id": "toastpro-2s-22",
+    "status": "shipped",
+    "delivery_eta": "2025-12-31",
+    "purchase_date": "2025-12-28"
+  },
+  {
+    "order_id": "A2045",
+    "customer_id": "CUST-015",
+    "product_id": "breezefan-f7",
+    "status": "delivered",
+    "delivery_eta": "2026-04-10",
+    "purchase_date": "2026-04-06"
+  },
+  {
+    "order_id": "A2046",
+    "customer_id": "CUST-078",
+    "product_id": "blendgo-b2",
+    "status": "shipped",
+    "delivery_eta": "2026-02-19",
+    "purchase_date": "2026-02-12"
+  },
+  {
+    "order_id": "A2047",
+    "customer_id": "CUST-082",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2026-01-24",
+    "purchase_date": "2026-01-15"
+  },
+  {
+    "order_id": "A2048",
+    "customer_id": "CUST-007",
+    "product_id": "breezefan-f7-29",
+    "status": "delivered",
+    "delivery_eta": "2026-04-21",
+    "purchase_date": "2026-04-13"
+  },
+  {
+    "order_id": "A2049",
+    "customer_id": "CUST-001",
+    "product_id": "toastpro-2s",
+    "status": "delivered",
+    "delivery_eta": "2025-12-15",
+    "purchase_date": "2025-12-11"
+  },
+  {
+    "order_id": "A2050",
+    "customer_id": "CUST-095",
+    "product_id": "dustmate-v10",
+    "status": "processing",
+    "delivery_eta": "2025-10-24",
+    "purchase_date": "2025-10-16"
+  },
+  {
+    "order_id": "A2051",
+    "customer_id": "CUST-010",
+    "product_id": "microchef-20l",
+    "status": "processing",
+    "delivery_eta": "2025-06-15",
+    "purchase_date": "2025-06-11"
+  },
+  {
+    "order_id": "A2052",
+    "customer_id": "CUST-048",
+    "product_id": "wavehub-r5-27",
+    "status": "returned",
+    "delivery_eta": "2025-08-09",
+    "purchase_date": "2025-08-05"
+  },
+  {
+    "order_id": "A2053",
+    "customer_id": "CUST-006",
+    "product_id": "aeropure-220",
+    "status": "processing",
+    "delivery_eta": "2025-12-31",
+    "purchase_date": "2025-12-24"
+  },
+  {
+    "order_id": "A2054",
+    "customer_id": "CUST-046",
+    "product_id": "breezefan-f7-29",
+    "status": "processing",
+    "delivery_eta": "2026-02-17",
+    "purchase_date": "2026-02-12"
+  },
+  {
+    "order_id": "A2055",
+    "customer_id": "CUST-100",
+    "product_id": "toastpro-2s-12",
+    "status": "shipped",
+    "delivery_eta": "2025-08-25",
+    "purchase_date": "2025-08-17"
+  },
+  {
+    "order_id": "A2056",
+    "customer_id": "CUST-031",
+    "product_id": "blendgo-b2-30",
+    "status": "returned",
+    "delivery_eta": "2026-03-12",
+    "purchase_date": "2026-03-08"
+  },
+  {
+    "order_id": "A2057",
+    "customer_id": "CUST-023",
+    "product_id": "nimbus-ac-1500",
+    "status": "returned",
+    "delivery_eta": "2025-05-25",
+    "purchase_date": "2025-05-18"
+  },
+  {
+    "order_id": "A2058",
+    "customer_id": "CUST-086",
+    "product_id": "dustmate-v10-26",
+    "status": "delivered",
+    "delivery_eta": "2025-05-24",
+    "purchase_date": "2025-05-19"
+  },
+  {
+    "order_id": "A2059",
+    "customer_id": "CUST-090",
+    "product_id": "dustmate-v10",
+    "status": "processing",
+    "delivery_eta": "2026-04-13",
+    "purchase_date": "2026-04-05"
+  },
+  {
+    "order_id": "A2060",
+    "customer_id": "CUST-061",
+    "product_id": "sonicbar-s20-28",
+    "status": "returned",
+    "delivery_eta": "2026-02-11",
+    "purchase_date": "2026-02-06"
+  },
+  {
+    "order_id": "A2061",
+    "customer_id": "CUST-040",
+    "product_id": "toastpro-2s-12",
+    "status": "processing",
+    "delivery_eta": "2026-02-08",
+    "purchase_date": "2026-02-03"
+  },
+  {
+    "order_id": "A2062",
+    "customer_id": "CUST-025",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2025-11-14",
+    "purchase_date": "2025-11-07"
+  },
+  {
+    "order_id": "A2063",
+    "customer_id": "CUST-009",
+    "product_id": "sonicbar-s20-28",
+    "status": "delivered",
+    "delivery_eta": "2025-05-06",
+    "purchase_date": "2025-04-30"
+  },
+  {
+    "order_id": "A2064",
+    "customer_id": "CUST-066",
+    "product_id": "nimbus-ac-1500-21",
+    "status": "processing",
+    "delivery_eta": "2025-11-14",
+    "purchase_date": "2025-11-07"
+  },
+  {
+    "order_id": "A2065",
+    "customer_id": "CUST-034",
+    "product_id": "microchef-20l",
+    "status": "processing",
+    "delivery_eta": "2026-03-06",
+    "purchase_date": "2026-02-28"
+  },
+  {
+    "order_id": "A2066",
+    "customer_id": "CUST-077",
+    "product_id": "microchef-20l",
+    "status": "delivered",
+    "delivery_eta": "2025-10-27",
+    "purchase_date": "2025-10-20"
+  },
+  {
+    "order_id": "A2067",
+    "customer_id": "CUST-078",
+    "product_id": "microchef-20l-14",
+    "status": "returned",
+    "delivery_eta": "2025-09-14",
+    "purchase_date": "2025-09-11"
+  },
+  {
+    "order_id": "A2068",
+    "customer_id": "CUST-074",
+    "product_id": "breezefan-f7-29",
+    "status": "processing",
+    "delivery_eta": "2026-02-28",
+    "purchase_date": "2026-02-22"
+  },
+  {
+    "order_id": "A2069",
+    "customer_id": "CUST-056",
+    "product_id": "thermoboil-k1-23",
+    "status": "delivered",
+    "delivery_eta": "2026-06-04",
+    "purchase_date": "2026-05-30"
+  },
+  {
+    "order_id": "A2070",
+    "customer_id": "CUST-009",
+    "product_id": "microchef-20l-14",
+    "status": "delivered",
+    "delivery_eta": "2025-07-01",
+    "purchase_date": "2025-06-24"
+  },
+  {
+    "order_id": "A2071",
+    "customer_id": "CUST-016",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2025-06-02",
+    "purchase_date": "2025-05-27"
+  },
+  {
+    "order_id": "A2072",
+    "customer_id": "CUST-053",
+    "product_id": "toastpro-2s-22",
+    "status": "delivered",
+    "delivery_eta": "2025-12-22",
+    "purchase_date": "2025-12-14"
+  },
+  {
+    "order_id": "A2073",
+    "customer_id": "CUST-017",
+    "product_id": "sonicbar-s20-18",
+    "status": "returned",
+    "delivery_eta": "2026-03-01",
+    "purchase_date": "2026-02-21"
+  },
+  {
+    "order_id": "A2074",
+    "customer_id": "CUST-096",
+    "product_id": "toastpro-2s-22",
+    "status": "returned",
+    "delivery_eta": "2026-03-08",
+    "purchase_date": "2026-03-02"
+  },
+  {
+    "order_id": "A2075",
+    "customer_id": "CUST-001",
+    "product_id": "sonicbar-s20-18",
+    "status": "shipped",
+    "delivery_eta": "2026-01-01",
+    "purchase_date": "2025-12-26"
+  },
+  {
+    "order_id": "A2076",
+    "customer_id": "CUST-075",
+    "product_id": "microchef-20l-14",
+    "status": "returned",
+    "delivery_eta": "2025-07-31",
+    "purchase_date": "2025-07-24"
+  },
+  {
+    "order_id": "A2077",
+    "customer_id": "CUST-057",
+    "product_id": "aeropure-220-15",
+    "status": "returned",
+    "delivery_eta": "2025-06-24",
+    "purchase_date": "2025-06-19"
+  },
+  {
+    "order_id": "A2078",
+    "customer_id": "CUST-095",
+    "product_id": "dustmate-v10-26",
+    "status": "delivered",
+    "delivery_eta": "2026-03-08",
+    "purchase_date": "2026-03-05"
+  },
+  {
+    "order_id": "A2079",
+    "customer_id": "CUST-085",
+    "product_id": "wavehub-r5-17",
+    "status": "processing",
+    "delivery_eta": "2025-07-17",
+    "purchase_date": "2025-07-10"
+  },
+  {
+    "order_id": "A2080",
+    "customer_id": "CUST-097",
+    "product_id": "wavehub-r5-27",
+    "status": "shipped",
+    "delivery_eta": "2026-02-05",
+    "purchase_date": "2026-01-30"
+  },
+  {
+    "order_id": "A2081",
+    "customer_id": "CUST-026",
+    "product_id": "dustmate-v10-26",
+    "status": "processing",
+    "delivery_eta": "2026-03-18",
+    "purchase_date": "2026-03-16"
+  },
+  {
+    "order_id": "A2082",
+    "customer_id": "CUST-061",
+    "product_id": "sonicbar-s20",
+    "status": "returned",
+    "delivery_eta": "2025-07-25",
+    "purchase_date": "2025-07-22"
+  },
+  {
+    "order_id": "A2083",
+    "customer_id": "CUST-081",
+    "product_id": "microchef-20l-14",
+    "status": "returned",
+    "delivery_eta": "2025-08-14",
+    "purchase_date": "2025-08-09"
+  },
+  {
+    "order_id": "A2084",
+    "customer_id": "CUST-052",
+    "product_id": "dustmate-v10-16",
+    "status": "processing",
+    "delivery_eta": "2026-01-30",
+    "purchase_date": "2026-01-26"
+  },
+  {
+    "order_id": "A2085",
+    "customer_id": "CUST-097",
+    "product_id": "breezefan-f7-29",
+    "status": "returned",
+    "delivery_eta": "2025-05-04",
+    "purchase_date": "2025-05-01"
+  },
+  {
+    "order_id": "A2086",
+    "customer_id": "CUST-023",
+    "product_id": "sonicbar-s20",
+    "status": "processing",
+    "delivery_eta": "2025-06-17",
+    "purchase_date": "2025-06-08"
+  },
+  {
+    "order_id": "A2087",
+    "customer_id": "CUST-032",
+    "product_id": "sonicbar-s20-18",
+    "status": "shipped",
+    "delivery_eta": "2026-04-07",
+    "purchase_date": "2026-03-29"
+  },
+  {
+    "order_id": "A2088",
+    "customer_id": "CUST-060",
+    "product_id": "dustmate-v10-26",
+    "status": "returned",
+    "delivery_eta": "2025-06-30",
+    "purchase_date": "2025-06-23"
+  },
+  {
+    "order_id": "A2089",
+    "customer_id": "CUST-093",
+    "product_id": "blendgo-b2-20",
+    "status": "returned",
+    "delivery_eta": "2025-09-22",
+    "purchase_date": "2025-09-14"
+  },
+  {
+    "order_id": "A2090",
+    "customer_id": "CUST-021",
+    "product_id": "breezefan-f7-29",
+    "status": "returned",
+    "delivery_eta": "2025-05-24",
+    "purchase_date": "2025-05-15"
+  },
+  {
+    "order_id": "A2091",
+    "customer_id": "CUST-097",
+    "product_id": "breezefan-f7",
+    "status": "returned",
+    "delivery_eta": "2026-01-30",
+    "purchase_date": "2026-01-24"
+  },
+  {
+    "order_id": "A2092",
+    "customer_id": "CUST-031",
+    "product_id": "nimbus-ac-1500-21",
+    "status": "processing",
+    "delivery_eta": "2026-01-19",
+    "purchase_date": "2026-01-10"
+  },
+  {
+    "order_id": "A2093",
+    "customer_id": "CUST-037",
+    "product_id": "thermoboil-k1-23",
+    "status": "delivered",
+    "delivery_eta": "2026-02-05",
+    "purchase_date": "2026-01-30"
+  },
+  {
+    "order_id": "A2094",
+    "customer_id": "CUST-070",
+    "product_id": "nimbus-ac-1500-11",
+    "status": "shipped",
+    "delivery_eta": "2026-04-23",
+    "purchase_date": "2026-04-19"
+  },
+  {
+    "order_id": "A2095",
+    "customer_id": "CUST-050",
+    "product_id": "sonicbar-s20",
+    "status": "shipped",
+    "delivery_eta": "2025-06-13",
+    "purchase_date": "2025-06-09"
+  },
+  {
+    "order_id": "A2096",
+    "customer_id": "CUST-054",
+    "product_id": "thermoboil-k1",
+    "status": "returned",
+    "delivery_eta": "2025-11-10",
+    "purchase_date": "2025-11-03"
+  },
+  {
+    "order_id": "A2097",
+    "customer_id": "CUST-008",
+    "product_id": "microchef-20l-14",
+    "status": "returned",
+    "delivery_eta": "2026-02-22",
+    "purchase_date": "2026-02-14"
+  },
+  {
+    "order_id": "A2098",
+    "customer_id": "CUST-099",
+    "product_id": "breezefan-f7-29",
+    "status": "returned",
+    "delivery_eta": "2025-08-06",
+    "purchase_date": "2025-08-04"
+  },
+  {
+    "order_id": "A2099",
+    "customer_id": "CUST-001",
+    "product_id": "dustmate-v10-16",
+    "status": "returned",
+    "delivery_eta": "2025-12-07",
+    "purchase_date": "2025-12-01"
+  }
+]

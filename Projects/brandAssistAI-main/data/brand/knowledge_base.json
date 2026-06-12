@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "policy-warranty-standard",
+    "product_id": null,
+    "kind": "policy",
+    "title": "Standard warranty policy",
+    "text": "BrandAssist products carry a standard limited warranty against manufacturing defects in materials and workmanship. Most products are covered for 12 months from the purchase date; select products carry 24 months as noted on the product page. The warranty covers defects such as component failure under normal use. It does not cover accidental damage, misuse, unauthorized repair, normal wear, or consumable parts like filters. To make a claim, provide your order ID or proof of purchase; the support team will verify coverage, arrange repair or replacement, and may request photos. Keep your proof of purchase available."
+  },
+  {
+    "id": "policy-returns-standard",
+    "product_id": null,
+    "kind": "policy",
+    "title": "Returns and refunds policy",
+    "text": "Items may be returned within 30 days of delivery for a refund or exchange. Unopened items in original packaging qualify for a full refund. Opened items that are in resalable condition may be accepted, though a restocking fee can apply for certain categories. To start a return, have your order ID and proof of purchase ready; the support team will issue a return authorization and instructions. Refunds are processed to the original payment method after the item is received and inspected. Hygiene-sensitive or consumable items may be non-returnable once opened."
+  },
+  {
+    "id": "manual-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "manual",
+    "title": "AeroPure 220 setup and first use",
+    "text": "To set up your AeroPure 220 air purifier, open the front cover and remove the plastic wrap from the new filter, then refit the filter and cover; the unit will not purify effectively with the wrap on. Place it on a flat surface with at least 30 cm clearance around the air intake and outlet. Power on and select Auto mode to let the sensor manage fan speed. After installing a fresh filter, reset the filter life indicator. Need help? The air-quality light shows current conditions at a glance."
+  },
+  {
+    "id": "faq-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "faq",
+    "title": "AeroPure 220 frequently asked questions",
+    "text": "Frequently asked questions for the AeroPure 220. What does Auto mode do? It reads the air-quality sensor and raises fan speed when particles increase. How often do I replace the filter? Typically every 6 to 12 months depending on use; the indicator will prompt you. Can I wash the HEPA filter? No, replace it; only the pre-filter is washable. Why is the air-quality light red? It detected elevated particles, which is normal during cooking or dust."
+  },
+  {
+    "id": "troubleshoot-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "troubleshooting",
+    "title": "AeroPure 220 troubleshooting",
+    "text": "AeroPure 220 troubleshooting. Weak airflow or no purification: confirm the filter wrap was removed and the front cover is fully closed, as a cover switch disables the fan when open. Filter indicator stays on after replacement: reset it by holding the filter button for five seconds. Persistent odor: the pre-filter needs cleaning or the main filter is exhausted. Noisy operation: check for a loose cover or debris on the fan. If the fix still failed, the sensor or motor may need service."
+  },
+  {
+    "id": "errors-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "error_codes",
+    "title": "AeroPure 220 error codes and indicators",
+    "text": "AeroPure 220 indicators. The air-quality ring shows blue for good, amber for moderate, and red for poor air. A flashing filter icon means it is time to replace the filter. E1 indicates a sensor fault: wipe the sensor lens and restart. E2 indicates the fan motor is obstructed or failing: unplug, inspect, and service if it persists."
+  },
+  {
+    "id": "care-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "maintenance",
+    "title": "AeroPure 220 maintenance and cleaning",
+    "text": "AeroPure 220 maintenance. Vacuum or rinse the washable pre-filter every two to four weeks and dry it fully before refitting. Replace the main HEPA/carbon filter on schedule and reset the indicator. Gently wipe the dust sensor lens monthly so readings stay accurate. Keep the intake and outlet free of obstructions and wipe the housing with a dry cloth."
+  },
+  {
+    "id": "safety-aeropure-220",
+    "product_id": "aeropure-220",
+    "kind": "safety",
+    "title": "AeroPure 220 safety guidance",
+    "text": "AeroPure 220 safety guidance. Always unplug before opening the cover or changing filters. Do not operate without a filter installed. Keep the purifier away from water and humid areas and never insert objects into the outlet. Stop use if the cord is damaged or you notice burning smells, and keep the unit out of reach of young children."
+  },
+  {
+    "id": "manual-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "manual",
+    "title": "AeroPure 220 15 setup and first use",
+    "text": "To set up your AeroPure 220 15 air purifier, open the front cover and remove the plastic wrap from the new filter, then refit the filter and cover; the unit will not purify effectively with the wrap on. Place it on a flat surface with at least 30 cm clearance around the air intake and outlet. Power on and select Auto mode to let the sensor manage fan speed. After installing a fresh filter, reset the filter life indicator. Need help? The air-quality light shows current conditions at a glance."
+  },
+  {
+    "id": "faq-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "faq",
+    "title": "AeroPure 220 15 frequently asked questions",
+    "text": "Frequently asked questions for the AeroPure 220 15. What does Auto mode do? It reads the air-quality sensor and raises fan speed when particles increase. How often do I replace the filter? Typically every 6 to 12 months depending on use; the indicator will prompt you. Can I wash the HEPA filter? No, replace it; only the pre-filter is washable. Why is the air-quality light red? It detected elevated particles, which is normal during cooking or dust."
+  },
+  {
+    "id": "troubleshoot-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "troubleshooting",
+    "title": "AeroPure 220 15 troubleshooting",
+    "text": "AeroPure 220 15 troubleshooting. Weak airflow or no purification: confirm the filter wrap was removed and the front cover is fully closed, as a cover switch disables the fan when open. Filter indicator stays on after replacement: reset it by holding the filter button for five seconds. Persistent odor: the pre-filter needs cleaning or the main filter is exhausted. Noisy operation: check for a loose cover or debris on the fan. If the fix still failed, the sensor or motor may need service."
+  },
+  {
+    "id": "errors-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "error_codes",
+    "title": "AeroPure 220 15 error codes and indicators",
+    "text": "AeroPure 220 15 indicators. The air-quality ring shows blue for good, amber for moderate, and red for poor air. A flashing filter icon means it is time to replace the filter. E1 indicates a sensor fault: wipe the sensor lens and restart. E2 indicates the fan motor is obstructed or failing: unplug, inspect, and service if it persists."
+  },
+  {
+    "id": "care-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "maintenance",
+    "title": "AeroPure 220 15 maintenance and cleaning",
+    "text": "AeroPure 220 15 maintenance. Vacuum or rinse the washable pre-filter every two to four weeks and dry it fully before refitting. Replace the main HEPA/carbon filter on schedule and reset the indicator. Gently wipe the dust sensor lens monthly so readings stay accurate. Keep the intake and outlet free of obstructions and wipe the housing with a dry cloth."
+  },
+  {
+    "id": "safety-aeropure-220-15",
+    "product_id": "aeropure-220-15",
+    "kind": "safety",
+    "title": "AeroPure 220 15 safety guidance",
+    "text": "AeroPure 220 15 safety guidance. Always unplug before opening the cover or changing filters. Do not operate without a filter installed. Keep the purifier away from water and humid areas and never insert objects into the outlet. Stop use if the cord is damaged or you notice burning smells, and keep the unit out of reach of young children."
+  },
+  {
+    "id": "manual-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "manual",
+    "title": "AeroPure 220 25 setup and first use",
+    "text": "To set up your AeroPure 220 25 air purifier, open the front cover and remove the plastic wrap from the new filter, then refit the filter and cover; the unit will not purify effectively with the wrap on. Place it on a flat surface with at least 30 cm clearance around the air intake and outlet. Power on and select Auto mode to let the sensor manage fan speed. After installing a fresh filter, reset the filter life indicator. Need help? The air-quality light shows current conditions at a glance."
+  },
+  {
+    "id": "faq-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "faq",
+    "title": "AeroPure 220 25 frequently asked questions",
+    "text": "Frequently asked questions for the AeroPure 220 25. What does Auto mode do? It reads the air-quality sensor and raises fan speed when particles increase. How often do I replace the filter? Typically every 6 to 12 months depending on use; the indicator will prompt you. Can I wash the HEPA filter? No, replace it; only the pre-filter is washable. Why is the air-quality light red? It detected elevated particles, which is normal during cooking or dust."
+  },
+  {
+    "id": "troubleshoot-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "troubleshooting",
+    "title": "AeroPure 220 25 troubleshooting",
+    "text": "AeroPure 220 25 troubleshooting. Weak airflow or no purification: confirm the filter wrap was removed and the front cover is fully closed, as a cover switch disables the fan when open. Filter indicator stays on after replacement: reset it by holding the filter button for five seconds. Persistent odor: the pre-filter needs cleaning or the main filter is exhausted. Noisy operation: check for a loose cover or debris on the fan. If the fix still failed, the sensor or motor may need service."
+  },
+  {
+    "id": "errors-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "error_codes",
+    "title": "AeroPure 220 25 error codes and indicators",
+    "text": "AeroPure 220 25 indicators. The air-quality ring shows blue for good, amber for moderate, and red for poor air. A flashing filter icon means it is time to replace the filter. E1 indicates a sensor fault: wipe the sensor lens and restart. E2 indicates the fan motor is obstructed or failing: unplug, inspect, and service if it persists."
+  },
+  {
+    "id": "care-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "maintenance",
+    "title": "AeroPure 220 25 maintenance and cleaning",
+    "text": "AeroPure 220 25 maintenance. Vacuum or rinse the washable pre-filter every two to four weeks and dry it fully before refitting. Replace the main HEPA/carbon filter on schedule and reset the indicator. Gently wipe the dust sensor lens monthly so readings stay accurate. Keep the intake and outlet free of obstructions and wipe the housing with a dry cloth."
+  },
+  {
+    "id": "safety-aeropure-220-25",
+    "product_id": "aeropure-220-25",
+    "kind": "safety",
+    "title": "AeroPure 220 25 safety guidance",
+    "text": "AeroPure 220 25 safety guidance. Always unplug before opening the cover or changing filters. Do not operate without a filter installed. Keep the purifier away from water and humid areas and never insert objects into the outlet. Stop use if the cord is damaged or you notice burning smells, and keep the unit out of reach of young children."
+  },
+  {
+    "id": "manual-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "manual",
+    "title": "BlendGo B2 setup and first use",
+    "text": "To set up your BlendGo B2 blender, wash the jar, lid, and blade assembly before first use and dry them. Seat the jar firmly on the motor base until it locks; many models will not start unless the jar is correctly seated. Add liquid first, then soft items, then ice or hard items, and never fill past the max line. Start on low and increase speed. Need help? Pulse gives short bursts for controlled blending."
+  },
+  {
+    "id": "faq-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "faq",
+    "title": "BlendGo B2 frequently asked questions",
+    "text": "Frequently asked questions for the BlendGo B2. Why won't it start? A safety interlock prevents operation unless the jar and lid are locked in place. Can I blend hot liquids? Only with the lid vent open and in small batches to release steam. Can I crush ice? Yes, with some liquid and the pulse function. Why does it leak at the base? The blade gasket may be missing or misaligned. How full can I fill it? Never above the max line."
+  },
+  {
+    "id": "troubleshoot-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "troubleshooting",
+    "title": "BlendGo B2 troubleshooting",
+    "text": "BlendGo B2 troubleshooting. Will not turn on: confirm the jar is locked onto the base and the lid is secured, since the interlock blocks operation otherwise. Motor runs but blades do not turn: the drive coupling may be worn or the jar is not seated. Leaking from the bottom: reseat or replace the blade gasket and avoid overfilling. Strong burning smell or it stops mid-blend: thermal protection tripped from overload, so let it cool 15 minutes and blend smaller batches. If the fix still failed, the coupling or motor needs service."
+  },
+  {
+    "id": "errors-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "error_codes",
+    "title": "BlendGo B2 error codes and indicators",
+    "text": "BlendGo B2 indicators. A steady power light shows it is ready. A blinking light with no motor action usually means the jar or lid is not locked, or thermal protection has tripped after overload: let it cool and retry. No light at all indicates a power or fuse issue. Repeated thermal trips mean batches are too large or too thick."
+  },
+  {
+    "id": "care-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "maintenance",
+    "title": "BlendGo B2 maintenance and cleaning",
+    "text": "BlendGo B2 maintenance and cleaning. For a quick clean, add warm water and a drop of dish soap and pulse, then rinse. Periodically remove the blade assembly and gasket to wash separately, and dry fully before reassembly. Wipe the motor base with a damp cloth only and never immerse it. Inspect the gasket for wear and replace it if cracked."
+  },
+  {
+    "id": "safety-blendgo-b2",
+    "product_id": "blendgo-b2",
+    "kind": "safety",
+    "title": "BlendGo B2 safety guidance",
+    "text": "BlendGo B2 safety guidance. Keep hands and utensils out of the jar while the motor runs; stop and unplug before scraping. Always secure the lid before blending. When processing hot liquids, vent the lid and start slow to avoid pressure buildup. Handle the blades carefully as they are sharp. Stop use if the base, cord, or coupling is damaged."
+  },
+  {
+    "id": "manual-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "manual",
+    "title": "BlendGo B2 20 setup and first use",
+    "text": "To set up your BlendGo B2 20 blender, wash the jar, lid, and blade assembly before first use and dry them. Seat the jar firmly on the motor base until it locks; many models will not start unless the jar is correctly seated. Add liquid first, then soft items, then ice or hard items, and never fill past the max line. Start on low and increase speed. Need help? Pulse gives short bursts for controlled blending."
+  },
+  {
+    "id": "faq-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "faq",
+    "title": "BlendGo B2 20 frequently asked questions",
+    "text": "Frequently asked questions for the BlendGo B2 20. Why won't it start? A safety interlock prevents operation unless the jar and lid are locked in place. Can I blend hot liquids? Only with the lid vent open and in small batches to release steam. Can I crush ice? Yes, with some liquid and the pulse function. Why does it leak at the base? The blade gasket may be missing or misaligned. How full can I fill it? Never above the max line."
+  },
+  {
+    "id": "troubleshoot-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "troubleshooting",
+    "title": "BlendGo B2 20 troubleshooting",
+    "text": "BlendGo B2 20 troubleshooting. Will not turn on: confirm the jar is locked onto the base and the lid is secured, since the interlock blocks operation otherwise. Motor runs but blades do not turn: the drive coupling may be worn or the jar is not seated. Leaking from the bottom: reseat or replace the blade gasket and avoid overfilling. Strong burning smell or it stops mid-blend: thermal protection tripped from overload, so let it cool 15 minutes and blend smaller batches. If the fix still failed, the coupling or motor needs service."
+  },
+  {
+    "id": "errors-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "error_codes",
+    "title": "BlendGo B2 20 error codes and indicators",
+    "text": "BlendGo B2 20 indicators. A steady power light shows it is ready. A blinking light with no motor action usually means the jar or lid is not locked, or thermal protection has tripped after overload: let it cool and retry. No light at all indicates a power or fuse issue. Repeated thermal trips mean batches are too large or too thick."
+  },
+  {
+    "id": "care-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "maintenance",
+    "title": "BlendGo B2 20 maintenance and cleaning",
+    "text": "BlendGo B2 20 maintenance and cleaning. For a quick clean, add warm water and a drop of dish soap and pulse, then rinse. Periodically remove the blade assembly and gasket to wash separately, and dry fully before reassembly. Wipe the motor base with a damp cloth only and never immerse it. Inspect the gasket for wear and replace it if cracked."
+  },
+  {
+    "id": "safety-blendgo-b2-20",
+    "product_id": "blendgo-b2-20",
+    "kind": "safety",
+    "title": "BlendGo B2 20 safety guidance",
+    "text": "BlendGo B2 20 safety guidance. Keep hands and utensils out of the jar while the motor runs; stop and unplug before scraping. Always secure the lid before blending. When processing hot liquids, vent the lid and start slow to avoid pressure buildup. Handle the blades carefully as they are sharp. Stop use if the base, cord, or coupling is damaged."
+  },
+  {
+    "id": "manual-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "manual",
+    "title": "BlendGo B2 30 setup and first use",
+    "text": "To set up your BlendGo B2 30 blender, wash the jar, lid, and blade assembly before first use and dry them. Seat the jar firmly on the motor base until it locks; many models will not start unless the jar is correctly seated. Add liquid first, then soft items, then ice or hard items, and never fill past the max line. Start on low and increase speed. Need help? Pulse gives short bursts for controlled blending."
+  },
+  {
+    "id": "faq-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "faq",
+    "title": "BlendGo B2 30 frequently asked questions",
+    "text": "Frequently asked questions for the BlendGo B2 30. Why won't it start? A safety interlock prevents operation unless the jar and lid are locked in place. Can I blend hot liquids? Only with the lid vent open and in small batches to release steam. Can I crush ice? Yes, with some liquid and the pulse function. Why does it leak at the base? The blade gasket may be missing or misaligned. How full can I fill it? Never above the max line."
+  },
+  {
+    "id": "troubleshoot-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "troubleshooting",
+    "title": "BlendGo B2 30 troubleshooting",
+    "text": "BlendGo B2 30 troubleshooting. Will not turn on: confirm the jar is locked onto the base and the lid is secured, since the interlock blocks operation otherwise. Motor runs but blades do not turn: the drive coupling may be worn or the jar is not seated. Leaking from the bottom: reseat or replace the blade gasket and avoid overfilling. Strong burning smell or it stops mid-blend: thermal protection tripped from overload, so let it cool 15 minutes and blend smaller batches. If the fix still failed, the coupling or motor needs service."
+  },
+  {
+    "id": "errors-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "error_codes",
+    "title": "BlendGo B2 30 error codes and indicators",
+    "text": "BlendGo B2 30 indicators. A steady power light shows it is ready. A blinking light with no motor action usually means the jar or lid is not locked, or thermal protection has tripped after overload: let it cool and retry. No light at all indicates a power or fuse issue. Repeated thermal trips mean batches are too large or too thick."
+  },
+  {
+    "id": "care-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "maintenance",
+    "title": "BlendGo B2 30 maintenance and cleaning",
+    "text": "BlendGo B2 30 maintenance and cleaning. For a quick clean, add warm water and a drop of dish soap and pulse, then rinse. Periodically remove the blade assembly and gasket to wash separately, and dry fully before reassembly. Wipe the motor base with a damp cloth only and never immerse it. Inspect the gasket for wear and replace it if cracked."
+  },
+  {
+    "id": "safety-blendgo-b2-30",
+    "product_id": "blendgo-b2-30",
+    "kind": "safety",
+    "title": "BlendGo B2 30 safety guidance",
+    "text": "BlendGo B2 30 safety guidance. Keep hands and utensils out of the jar while the motor runs; stop and unplug before scraping. Always secure the lid before blending. When processing hot liquids, vent the lid and start slow to avoid pressure buildup. Handle the blades carefully as they are sharp. Stop use if the base, cord, or coupling is damaged."
+  },
+  {
+    "id": "manual-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "manual",
+    "title": "BreezeFan F7 setup and first use",
+    "text": "To set up your BreezeFan F7 tower fan, assemble the base as shown so the fan stands stable, then place it on a flat floor away from foot traffic. Insert the remote battery and power on at the wall. Press the speed button to cycle through speeds and the oscillate button to sweep the airflow. Set the timer if you want it to switch off automatically. Need help? The control panel mirrors the remote buttons for speed, mode, oscillation, and timer."
+  },
+  {
+    "id": "faq-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "faq",
+    "title": "BreezeFan F7 frequently asked questions",
+    "text": "Frequently asked questions for the BreezeFan F7. What do the modes do? Normal is steady airflow, Natural varies speed like a breeze, and Sleep dims the display and lowers speed gradually. Why is airflow weaker over time? Dust on the intake grille reduces output; clean it. Can it run all night? Yes, but using the timer and Sleep mode is recommended. Why won't it oscillate? Check that the oscillation is enabled and the base is fully assembled."
+  },
+  {
+    "id": "troubleshoot-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "troubleshooting",
+    "title": "BreezeFan F7 troubleshooting",
+    "text": "BreezeFan F7 troubleshooting. Fan will not turn on: confirm the plug is firm and try another outlet, and ensure the base is fully seated as some models have an assembly safety contact. Weak airflow: clean the rear intake grille where dust collects. Will not oscillate: the oscillation may be off or the internal gear is obstructed. Rattling or wobble: tighten the base and check for a loose grille. Remote not working: replace the battery and aim at the panel. If the fix still failed, the motor may need service."
+  },
+  {
+    "id": "errors-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "error_codes",
+    "title": "BreezeFan F7 error codes and indicators",
+    "text": "BreezeFan F7 indicators. The display shows the current speed level and remaining timer hours. There are no fault codes on this model. A display that lights but a fan that does not spin usually means the rotor is jammed by dust or an object; unplug and clear it. No display at all points to a power or fuse issue."
+  },
+  {
+    "id": "care-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "maintenance",
+    "title": "BreezeFan F7 maintenance and cleaning",
+    "text": "BreezeFan F7 maintenance. Unplug before cleaning. Vacuum the rear intake grille and wipe the housing with a soft, slightly damp cloth; never let water enter the motor housing. For deeper cleaning, use compressed air through the grille. Store the fan in a dry place during the off-season and keep the cord loosely coiled to avoid stress."
+  },
+  {
+    "id": "safety-breezefan-f7",
+    "product_id": "breezefan-f7",
+    "kind": "safety",
+    "title": "BreezeFan F7 safety guidance",
+    "text": "BreezeFan F7 safety guidance. Do not insert fingers or objects through the grille while the fan runs. Keep the cord clear of walkways. Operate on a stable, level surface so the fan cannot tip. Do not use near water or in damp bathrooms unless rated for it. Stop use if the cord is damaged or the motor smells hot."
+  },
+  {
+    "id": "manual-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "manual",
+    "title": "BreezeFan F7 19 setup and first use",
+    "text": "To set up your BreezeFan F7 19 tower fan, assemble the base as shown so the fan stands stable, then place it on a flat floor away from foot traffic. Insert the remote battery and power on at the wall. Press the speed button to cycle through speeds and the oscillate button to sweep the airflow. Set the timer if you want it to switch off automatically. Need help? The control panel mirrors the remote buttons for speed, mode, oscillation, and timer."
+  },
+  {
+    "id": "faq-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "faq",
+    "title": "BreezeFan F7 19 frequently asked questions",
+    "text": "Frequently asked questions for the BreezeFan F7 19. What do the modes do? Normal is steady airflow, Natural varies speed like a breeze, and Sleep dims the display and lowers speed gradually. Why is airflow weaker over time? Dust on the intake grille reduces output; clean it. Can it run all night? Yes, but using the timer and Sleep mode is recommended. Why won't it oscillate? Check that the oscillation is enabled and the base is fully assembled."
+  },
+  {
+    "id": "troubleshoot-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "troubleshooting",
+    "title": "BreezeFan F7 19 troubleshooting",
+    "text": "BreezeFan F7 19 troubleshooting. Fan will not turn on: confirm the plug is firm and try another outlet, and ensure the base is fully seated as some models have an assembly safety contact. Weak airflow: clean the rear intake grille where dust collects. Will not oscillate: the oscillation may be off or the internal gear is obstructed. Rattling or wobble: tighten the base and check for a loose grille. Remote not working: replace the battery and aim at the panel. If the fix still failed, the motor may need service."
+  },
+  {
+    "id": "errors-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "error_codes",
+    "title": "BreezeFan F7 19 error codes and indicators",
+    "text": "BreezeFan F7 19 indicators. The display shows the current speed level and remaining timer hours. There are no fault codes on this model. A display that lights but a fan that does not spin usually means the rotor is jammed by dust or an object; unplug and clear it. No display at all points to a power or fuse issue."
+  },
+  {
+    "id": "care-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "maintenance",
+    "title": "BreezeFan F7 19 maintenance and cleaning",
+    "text": "BreezeFan F7 19 maintenance. Unplug before cleaning. Vacuum the rear intake grille and wipe the housing with a soft, slightly damp cloth; never let water enter the motor housing. For deeper cleaning, use compressed air through the grille. Store the fan in a dry place during the off-season and keep the cord loosely coiled to avoid stress."
+  },
+  {
+    "id": "safety-breezefan-f7-19",
+    "product_id": "breezefan-f7-19",
+    "kind": "safety",
+    "title": "BreezeFan F7 19 safety guidance",
+    "text": "BreezeFan F7 19 safety guidance. Do not insert fingers or objects through the grille while the fan runs. Keep the cord clear of walkways. Operate on a stable, level surface so the fan cannot tip. Do not use near water or in damp bathrooms unless rated for it. Stop use if the cord is damaged or the motor smells hot."
+  },
+  {
+    "id": "manual-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "manual",
+    "title": "BreezeFan F7 29 setup and first use",
+    "text": "To set up your BreezeFan F7 29 tower fan, assemble the base as shown so the fan stands stable, then place it on a flat floor away from foot traffic. Insert the remote battery and power on at the wall. Press the speed button to cycle through speeds and the oscillate button to sweep the airflow. Set the timer if you want it to switch off automatically. Need help? The control panel mirrors the remote buttons for speed, mode, oscillation, and timer."
+  },
+  {
+    "id": "faq-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "faq",
+    "title": "BreezeFan F7 29 frequently asked questions",
+    "text": "Frequently asked questions for the BreezeFan F7 29. What do the modes do? Normal is steady airflow, Natural varies speed like a breeze, and Sleep dims the display and lowers speed gradually. Why is airflow weaker over time? Dust on the intake grille reduces output; clean it. Can it run all night? Yes, but using the timer and Sleep mode is recommended. Why won't it oscillate? Check that the oscillation is enabled and the base is fully assembled."
+  },
+  {
+    "id": "troubleshoot-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "troubleshooting",
+    "title": "BreezeFan F7 29 troubleshooting",
+    "text": "BreezeFan F7 29 troubleshooting. Fan will not turn on: confirm the plug is firm and try another outlet, and ensure the base is fully seated as some models have an assembly safety contact. Weak airflow: clean the rear intake grille where dust collects. Will not oscillate: the oscillation may be off or the internal gear is obstructed. Rattling or wobble: tighten the base and check for a loose grille. Remote not working: replace the battery and aim at the panel. If the fix still failed, the motor may need service."
+  },
+  {
+    "id": "errors-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "error_codes",
+    "title": "BreezeFan F7 29 error codes and indicators",
+    "text": "BreezeFan F7 29 indicators. The display shows the current speed level and remaining timer hours. There are no fault codes on this model. A display that lights but a fan that does not spin usually means the rotor is jammed by dust or an object; unplug and clear it. No display at all points to a power or fuse issue."
+  },
+  {
+    "id": "care-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "maintenance",
+    "title": "BreezeFan F7 29 maintenance and cleaning",
+    "text": "BreezeFan F7 29 maintenance. Unplug before cleaning. Vacuum the rear intake grille and wipe the housing with a soft, slightly damp cloth; never let water enter the motor housing. For deeper cleaning, use compressed air through the grille. Store the fan in a dry place during the off-season and keep the cord loosely coiled to avoid stress."
+  },
+  {
+    "id": "safety-breezefan-f7-29",
+    "product_id": "breezefan-f7-29",
+    "kind": "safety",
+    "title": "BreezeFan F7 29 safety guidance",
+    "text": "BreezeFan F7 29 safety guidance. Do not insert fingers or objects through the grille while the fan runs. Keep the cord clear of walkways. Operate on a stable, level surface so the fan cannot tip. Do not use near water or in damp bathrooms unless rated for it. Stop use if the cord is damaged or the motor smells hot."
+  },
+  {
+    "id": "manual-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "manual",
+    "title": "DustMate V10 setup and first use",
+    "text": "To set up your DustMate V10 cordless stick vacuum, charge the battery fully before first use, either on the dock or via the charge port until the indicator shows full. Click the wand and floor head onto the main body until they latch. Press the trigger or power button to start and select the suction level. Empty the dust bin before it passes the max line. Need help? The battery indicator shows remaining runtime while in use."
+  },
+  {
+    "id": "faq-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "faq",
+    "title": "DustMate V10 frequently asked questions",
+    "text": "Frequently asked questions for the DustMate V10. How long does the battery last? Roughly the rated runtime on low and less on boost mode. Can I use it on carpet and hard floors? Yes, the floor head suits both; use a lower setting on rugs. Why does suction drop? A full bin or clogged filter is the usual cause. Can I wash the filter? Yes, rinse and dry it fully. How long to recharge? Several hours from empty."
+  },
+  {
+    "id": "troubleshoot-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "troubleshooting",
+    "title": "DustMate V10 troubleshooting",
+    "text": "DustMate V10 troubleshooting. Low or no suction: empty the dust bin, wash and fully dry the filter, and check the wand and floor head for clogs. Will not turn on: the battery may be flat or too hot, so let it cool and recharge. Brush roll not spinning: clear hair and threads wrapped around it. Runs then stops: a blocked airway triggers thermal protection, so clear the blockage and let it cool. If the fix still failed, the battery may be at end of life."
+  },
+  {
+    "id": "errors-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "error_codes",
+    "title": "DustMate V10 error codes and indicators",
+    "text": "DustMate V10 indicators. A solid battery light shows charge level during use. A flashing red battery light means low charge or a thermal cutoff from a blockage: clear airways and let it cool. A flashing brush-bar light indicates the floor head is jammed: remove and clear it. No lights when charging points to a charger or battery fault."
+  },
+  {
+    "id": "care-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "maintenance",
+    "title": "DustMate V10 maintenance and cleaning",
+    "text": "DustMate V10 maintenance. Empty the dust bin after each use and tap out fine dust. Wash the filter under cold water at least monthly, never use detergent, and let it air-dry for 24 hours before refitting. Cut away hair wrapped around the brush roll. Wipe the floor head and wand. Store the vacuum on its dock in a dry place and avoid leaving the battery fully depleted for long periods."
+  },
+  {
+    "id": "safety-dustmate-v10",
+    "product_id": "dustmate-v10",
+    "kind": "safety",
+    "title": "DustMate V10 safety guidance",
+    "text": "DustMate V10 safety guidance. Use only the supplied charger; an incorrect charger can damage the battery. Do not vacuum water, embers, or sharp debris. Do not charge or store the unit in direct heat. If the battery swells, overheats, or smells, stop use and contact support. Keep fingers clear of the brush roll while it is running."
+  },
+  {
+    "id": "manual-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "manual",
+    "title": "DustMate V10 16 setup and first use",
+    "text": "To set up your DustMate V10 16 cordless stick vacuum, charge the battery fully before first use, either on the dock or via the charge port until the indicator shows full. Click the wand and floor head onto the main body until they latch. Press the trigger or power button to start and select the suction level. Empty the dust bin before it passes the max line. Need help? The battery indicator shows remaining runtime while in use."
+  },
+  {
+    "id": "faq-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "faq",
+    "title": "DustMate V10 16 frequently asked questions",
+    "text": "Frequently asked questions for the DustMate V10 16. How long does the battery last? Roughly the rated runtime on low and less on boost mode. Can I use it on carpet and hard floors? Yes, the floor head suits both; use a lower setting on rugs. Why does suction drop? A full bin or clogged filter is the usual cause. Can I wash the filter? Yes, rinse and dry it fully. How long to recharge? Several hours from empty."
+  },
+  {
+    "id": "troubleshoot-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "troubleshooting",
+    "title": "DustMate V10 16 troubleshooting",
+    "text": "DustMate V10 16 troubleshooting. Low or no suction: empty the dust bin, wash and fully dry the filter, and check the wand and floor head for clogs. Will not turn on: the battery may be flat or too hot, so let it cool and recharge. Brush roll not spinning: clear hair and threads wrapped around it. Runs then stops: a blocked airway triggers thermal protection, so clear the blockage and let it cool. If the fix still failed, the battery may be at end of life."
+  },
+  {
+    "id": "errors-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "error_codes",
+    "title": "DustMate V10 16 error codes and indicators",
+    "text": "DustMate V10 16 indicators. A solid battery light shows charge level during use. A flashing red battery light means low charge or a thermal cutoff from a blockage: clear airways and let it cool. A flashing brush-bar light indicates the floor head is jammed: remove and clear it. No lights when charging points to a charger or battery fault."
+  },
+  {
+    "id": "care-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "maintenance",
+    "title": "DustMate V10 16 maintenance and cleaning",
+    "text": "DustMate V10 16 maintenance. Empty the dust bin after each use and tap out fine dust. Wash the filter under cold water at least monthly, never use detergent, and let it air-dry for 24 hours before refitting. Cut away hair wrapped around the brush roll. Wipe the floor head and wand. Store the vacuum on its dock in a dry place and avoid leaving the battery fully depleted for long periods."
+  },
+  {
+    "id": "safety-dustmate-v10-16",
+    "product_id": "dustmate-v10-16",
+    "kind": "safety",
+    "title": "DustMate V10 16 safety guidance",
+    "text": "DustMate V10 16 safety guidance. Use only the supplied charger; an incorrect charger can damage the battery. Do not vacuum water, embers, or sharp debris. Do not charge or store the unit in direct heat. If the battery swells, overheats, or smells, stop use and contact support. Keep fingers clear of the brush roll while it is running."
+  },
+  {
+    "id": "manual-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "manual",
+    "title": "DustMate V10 26 setup and first use",
+    "text": "To set up your DustMate V10 26 cordless stick vacuum, charge the battery fully before first use, either on the dock or via the charge port until the indicator shows full. Click the wand and floor head onto the main body until they latch. Press the trigger or power button to start and select the suction level. Empty the dust bin before it passes the max line. Need help? The battery indicator shows remaining runtime while in use."
+  },
+  {
+    "id": "faq-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "faq",
+    "title": "DustMate V10 26 frequently asked questions",
+    "text": "Frequently asked questions for the DustMate V10 26. How long does the battery last? Roughly the rated runtime on low and less on boost mode. Can I use it on carpet and hard floors? Yes, the floor head suits both; use a lower setting on rugs. Why does suction drop? A full bin or clogged filter is the usual cause. Can I wash the filter? Yes, rinse and dry it fully. How long to recharge? Several hours from empty."
+  },
+  {
+    "id": "troubleshoot-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "troubleshooting",
+    "title": "DustMate V10 26 troubleshooting",
+    "text": "DustMate V10 26 troubleshooting. Low or no suction: empty the dust bin, wash and fully dry the filter, and check the wand and floor head for clogs. Will not turn on: the battery may be flat or too hot, so let it cool and recharge. Brush roll not spinning: clear hair and threads wrapped around it. Runs then stops: a blocked airway triggers thermal protection, so clear the blockage and let it cool. If the fix still failed, the battery may be at end of life."
+  },
+  {
+    "id": "errors-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "error_codes",
+    "title": "DustMate V10 26 error codes and indicators",
+    "text": "DustMate V10 26 indicators. A solid battery light shows charge level during use. A flashing red battery light means low charge or a thermal cutoff from a blockage: clear airways and let it cool. A flashing brush-bar light indicates the floor head is jammed: remove and clear it. No lights when charging points to a charger or battery fault."
+  },
+  {
+    "id": "care-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "maintenance",
+    "title": "DustMate V10 26 maintenance and cleaning",
+    "text": "DustMate V10 26 maintenance. Empty the dust bin after each use and tap out fine dust. Wash the filter under cold water at least monthly, never use detergent, and let it air-dry for 24 hours before refitting. Cut away hair wrapped around the brush roll. Wipe the floor head and wand. Store the vacuum on its dock in a dry place and avoid leaving the battery fully depleted for long periods."
+  },
+  {
+    "id": "safety-dustmate-v10-26",
+    "product_id": "dustmate-v10-26",
+    "kind": "safety",
+    "title": "DustMate V10 26 safety guidance",
+    "text": "DustMate V10 26 safety guidance. Use only the supplied charger; an incorrect charger can damage the battery. Do not vacuum water, embers, or sharp debris. Do not charge or store the unit in direct heat. If the battery swells, overheats, or smells, stop use and contact support. Keep fingers clear of the brush roll while it is running."
+  },
+  {
+    "id": "manual-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "manual",
+    "title": "MicroChef 20L setup and first use",
+    "text": "To set up your MicroChef 20L for the first time, place the microwave on a dry, level surface with at least 10 cm of clearance on every side and above for ventilation. Plug it into a grounded wall outlet; avoid extension cords. Remove all packaging from inside the cavity and confirm the glass turntable and roller ring are seated in the center recess. Set the clock, then run a one-minute heating test with a microwave-safe cup of water before first real use. Need help during install? The control panel test mode confirms the magnetron and turntable motor are working."
+  },
+  {
+    "id": "faq-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "faq",
+    "title": "MicroChef 20L frequently asked questions",
+    "text": "Frequently asked questions for the MicroChef 20L. Can I run it empty? No, never run the microwave with an empty cavity as this can damage the magnetron. Which containers are safe? Use microwave-safe glass or ceramic; avoid metal, foil, and most takeout containers. Why does food heat unevenly? Microwaves heat from the outside in, so stir or rotate food and use the turntable. Can I defrost? Yes, use the defrost program by weight. Is the door supposed to feel warm? Slight warmth is normal; excessive heat is not."
+  },
+  {
+    "id": "troubleshoot-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "troubleshooting",
+    "title": "MicroChef 20L troubleshooting",
+    "text": "MicroChef 20L troubleshooting by symptom. If the microwave will not heat but the turntable spins and the light works, the most common causes are a tripped internal thermal fuse, a door switch that is not engaging, or a failed magnetron; stop use and request service. If the turntable does not spin, check that the roller ring and glass tray are centered and the coupler is not cracked. If it sparks or arcs, remove any metal or foil and inspect the waveguide cover for food residue or damage. If buttons do not respond, unplug for 60 seconds to reset. If it runs but the fix still failed after a reset, the unit needs a technician."
+  },
+  {
+    "id": "errors-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "error_codes",
+    "title": "MicroChef 20L error codes and indicators",
+    "text": "MicroChef 20L error codes. E-1 indicates a temperature sensor fault: let the unit cool and retry. E-3 means the door is sensed open during a cycle: open and firmly close the door. E-5 is a keypad/membrane fault: unplug for one minute to reset. E-7 signals a magnetron over-temperature condition: stop use and contact support. A flashing colon means the clock needs to be set."
+  },
+  {
+    "id": "care-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "maintenance",
+    "title": "MicroChef 20L maintenance and cleaning",
+    "text": "MicroChef 20L maintenance and cleaning. Wipe the interior after each use with a damp cloth; for stuck-on food, microwave a bowl of water with lemon for two minutes to loosen residue, then wipe. Clean the waveguide cover gently and never remove it. Wash the glass turntable in warm soapy water. Keep door seals free of crumbs so the door closes flush. Do not use abrasive pads or harsh chemical sprays inside the cavity."
+  },
+  {
+    "id": "safety-microchef-20l",
+    "product_id": "microchef-20l",
+    "kind": "safety",
+    "title": "MicroChef 20L safety guidance",
+    "text": "MicroChef 20L safety guidance. Never operate the microwave with a damaged door, bent hinge, or faulty latch, as this can allow microwave leakage. Do not heat sealed containers, whole eggs, or large amounts of oil. Superheated water can erupt; place a wooden stick in the cup when boiling water. If you see smoke or arcing, turn it off and unplug immediately. Keep children supervised and never bypass the door interlock switches."
+  },
+  {
+    "id": "manual-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "manual",
+    "title": "MicroChef 20L 14 setup and first use",
+    "text": "To set up your MicroChef 20L 14 for the first time, place the microwave on a dry, level surface with at least 10 cm of clearance on every side and above for ventilation. Plug it into a grounded wall outlet; avoid extension cords. Remove all packaging from inside the cavity and confirm the glass turntable and roller ring are seated in the center recess. Set the clock, then run a one-minute heating test with a microwave-safe cup of water before first real use. Need help during install? The control panel test mode confirms the magnetron and turntable motor are working."
+  },
+  {
+    "id": "faq-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "faq",
+    "title": "MicroChef 20L 14 frequently asked questions",
+    "text": "Frequently asked questions for the MicroChef 20L 14. Can I run it empty? No, never run the microwave with an empty cavity as this can damage the magnetron. Which containers are safe? Use microwave-safe glass or ceramic; avoid metal, foil, and most takeout containers. Why does food heat unevenly? Microwaves heat from the outside in, so stir or rotate food and use the turntable. Can I defrost? Yes, use the defrost program by weight. Is the door supposed to feel warm? Slight warmth is normal; excessive heat is not."
+  },
+  {
+    "id": "troubleshoot-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "troubleshooting",
+    "title": "MicroChef 20L 14 troubleshooting",
+    "text": "MicroChef 20L 14 troubleshooting by symptom. If the microwave will not heat but the turntable spins and the light works, the most common causes are a tripped internal thermal fuse, a door switch that is not engaging, or a failed magnetron; stop use and request service. If the turntable does not spin, check that the roller ring and glass tray are centered and the coupler is not cracked. If it sparks or arcs, remove any metal or foil and inspect the waveguide cover for food residue or damage. If buttons do not respond, unplug for 60 seconds to reset. If it runs but the fix still failed after a reset, the unit needs a technician."
+  },
+  {
+    "id": "errors-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "error_codes",
+    "title": "MicroChef 20L 14 error codes and indicators",
+    "text": "MicroChef 20L 14 error codes. E-1 indicates a temperature sensor fault: let the unit cool and retry. E-3 means the door is sensed open during a cycle: open and firmly close the door. E-5 is a keypad/membrane fault: unplug for one minute to reset. E-7 signals a magnetron over-temperature condition: stop use and contact support. A flashing colon means the clock needs to be set."
+  },
+  {
+    "id": "care-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "maintenance",
+    "title": "MicroChef 20L 14 maintenance and cleaning",
+    "text": "MicroChef 20L 14 maintenance and cleaning. Wipe the interior after each use with a damp cloth; for stuck-on food, microwave a bowl of water with lemon for two minutes to loosen residue, then wipe. Clean the waveguide cover gently and never remove it. Wash the glass turntable in warm soapy water. Keep door seals free of crumbs so the door closes flush. Do not use abrasive pads or harsh chemical sprays inside the cavity."
+  },
+  {
+    "id": "safety-microchef-20l-14",
+    "product_id": "microchef-20l-14",
+    "kind": "safety",
+    "title": "MicroChef 20L 14 safety guidance",
+    "text": "MicroChef 20L 14 safety guidance. Never operate the microwave with a damaged door, bent hinge, or faulty latch, as this can allow microwave leakage. Do not heat sealed containers, whole eggs, or large amounts of oil. Superheated water can erupt; place a wooden stick in the cup when boiling water. If you see smoke or arcing, turn it off and unplug immediately. Keep children supervised and never bypass the door interlock switches."
+  },
+  {
+    "id": "manual-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "manual",
+    "title": "MicroChef 20L 24 setup and first use",
+    "text": "To set up your MicroChef 20L 24 for the first time, place the microwave on a dry, level surface with at least 10 cm of clearance on every side and above for ventilation. Plug it into a grounded wall outlet; avoid extension cords. Remove all packaging from inside the cavity and confirm the glass turntable and roller ring are seated in the center recess. Set the clock, then run a one-minute heating test with a microwave-safe cup of water before first real use. Need help during install? The control panel test mode confirms the magnetron and turntable motor are working."
+  },
+  {
+    "id": "faq-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "faq",
+    "title": "MicroChef 20L 24 frequently asked questions",
+    "text": "Frequently asked questions for the MicroChef 20L 24. Can I run it empty? No, never run the microwave with an empty cavity as this can damage the magnetron. Which containers are safe? Use microwave-safe glass or ceramic; avoid metal, foil, and most takeout containers. Why does food heat unevenly? Microwaves heat from the outside in, so stir or rotate food and use the turntable. Can I defrost? Yes, use the defrost program by weight. Is the door supposed to feel warm? Slight warmth is normal; excessive heat is not."
+  },
+  {
+    "id": "troubleshoot-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "troubleshooting",
+    "title": "MicroChef 20L 24 troubleshooting",
+    "text": "MicroChef 20L 24 troubleshooting by symptom. If the microwave will not heat but the turntable spins and the light works, the most common causes are a tripped internal thermal fuse, a door switch that is not engaging, or a failed magnetron; stop use and request service. If the turntable does not spin, check that the roller ring and glass tray are centered and the coupler is not cracked. If it sparks or arcs, remove any metal or foil and inspect the waveguide cover for food residue or damage. If buttons do not respond, unplug for 60 seconds to reset. If it runs but the fix still failed after a reset, the unit needs a technician."
+  },
+  {
+    "id": "errors-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "error_codes",
+    "title": "MicroChef 20L 24 error codes and indicators",
+    "text": "MicroChef 20L 24 error codes. E-1 indicates a temperature sensor fault: let the unit cool and retry. E-3 means the door is sensed open during a cycle: open and firmly close the door. E-5 is a keypad/membrane fault: unplug for one minute to reset. E-7 signals a magnetron over-temperature condition: stop use and contact support. A flashing colon means the clock needs to be set."
+  },
+  {
+    "id": "care-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "maintenance",
+    "title": "MicroChef 20L 24 maintenance and cleaning",
+    "text": "MicroChef 20L 24 maintenance and cleaning. Wipe the interior after each use with a damp cloth; for stuck-on food, microwave a bowl of water with lemon for two minutes to loosen residue, then wipe. Clean the waveguide cover gently and never remove it. Wash the glass turntable in warm soapy water. Keep door seals free of crumbs so the door closes flush. Do not use abrasive pads or harsh chemical sprays inside the cavity."
+  },
+  {
+    "id": "safety-microchef-20l-24",
+    "product_id": "microchef-20l-24",
+    "kind": "safety",
+    "title": "MicroChef 20L 24 safety guidance",
+    "text": "MicroChef 20L 24 safety guidance. Never operate the microwave with a damaged door, bent hinge, or faulty latch, as this can allow microwave leakage. Do not heat sealed containers, whole eggs, or large amounts of oil. Superheated water can erupt; place a wooden stick in the cup when boiling water. If you see smoke or arcing, turn it off and unplug immediately. Keep children supervised and never bypass the door interlock switches."
+  },
+  {
+    "id": "manual-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "manual",
+    "title": "NimbusCool AC 1500 setup and first use",
+    "text": "To set up your NimbusCool AC 1500 split air conditioner, ensure the indoor unit is mounted level by a qualified installer and the drain line slopes away for condensate. Insert the supplied batteries in the remote, power on at the wall, and press Mode to select Cool. Set a target temperature a few degrees below room temperature and confirm cool air within a few minutes. For first use after install, run Cool mode for 30 minutes to clear residual factory odor. Need help? The remote display shows the active mode and set temperature."
+  },
+  {
+    "id": "faq-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "faq",
+    "title": "NimbusCool AC 1500 frequently asked questions",
+    "text": "Frequently asked questions for the NimbusCool AC 1500. What does Eco mode do? It widens the temperature band and softens compressor cycling to save power. Why is there water dripping outside? Condensate drainage is normal during cooling. What temperature is most efficient? Around 24-26 C balances comfort and energy. How often should the filter be cleaned? Every two to four weeks in heavy use. Can it heat? Only models with a heat-pump badge; check the spec label."
+  },
+  {
+    "id": "troubleshoot-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "troubleshooting",
+    "title": "NimbusCool AC 1500 troubleshooting",
+    "text": "NimbusCool AC 1500 troubleshooting. Not cooling enough: clean the air filters, close windows and doors, and check that the outdoor unit is not blocked or in direct heat. Unit runs but blows warm air: the refrigerant charge or compressor may need service; do not attempt refrigerant work yourself. Water leaking from the indoor unit: the drain line is likely clogged, clear it gently. Remote not responding: replace batteries and point directly at the unit. Strange odor: clean the filters and evaporator. If the fix still failed, book a service visit."
+  },
+  {
+    "id": "errors-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "error_codes",
+    "title": "NimbusCool AC 1500 error codes and indicators",
+    "text": "NimbusCool AC 1500 error codes. E1 indicates an indoor temperature sensor fault. E2 signals a freeze-protection trip from restricted airflow: clean filters and restore airflow. E4 is a communication error between the indoor and outdoor units: check the interconnecting cable. P1 means high-pressure protection: shut down and call service. F0 indicates low refrigerant detected: professional service required."
+  },
+  {
+    "id": "care-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "maintenance",
+    "title": "NimbusCool AC 1500 maintenance and cleaning",
+    "text": "NimbusCool AC 1500 maintenance and cleaning. Remove and rinse the washable filters every two to four weeks and dry fully before refitting. Wipe the front louver and housing with a soft damp cloth. Keep the outdoor condenser clear of leaves and debris and ensure airflow around it. At season start, run a short test in Cool mode. Schedule professional servicing of coils and refrigerant annually for best efficiency."
+  },
+  {
+    "id": "safety-nimbus-ac-1500",
+    "product_id": "nimbus-ac-1500",
+    "kind": "safety",
+    "title": "NimbusCool AC 1500 safety guidance",
+    "text": "NimbusCool AC 1500 safety guidance. Always switch off at the wall before cleaning filters. Never insert objects into the louvers or fan. Refrigerant handling and any electrical or mounting work must be done by a certified technician. If you smell burning, see sparks, or the unit trips the breaker repeatedly, stop use and request service. Keep the remote and batteries away from small children."
+  },
+  {
+    "id": "manual-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "manual",
+    "title": "NimbusCool AC 1500 11 setup and first use",
+    "text": "To set up your NimbusCool AC 1500 11 split air conditioner, ensure the indoor unit is mounted level by a qualified installer and the drain line slopes away for condensate. Insert the supplied batteries in the remote, power on at the wall, and press Mode to select Cool. Set a target temperature a few degrees below room temperature and confirm cool air within a few minutes. For first use after install, run Cool mode for 30 minutes to clear residual factory odor. Need help? The remote display shows the active mode and set temperature."
+  },
+  {
+    "id": "faq-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "faq",
+    "title": "NimbusCool AC 1500 11 frequently asked questions",
+    "text": "Frequently asked questions for the NimbusCool AC 1500 11. What does Eco mode do? It widens the temperature band and softens compressor cycling to save power. Why is there water dripping outside? Condensate drainage is normal during cooling. What temperature is most efficient? Around 24-26 C balances comfort and energy. How often should the filter be cleaned? Every two to four weeks in heavy use. Can it heat? Only models with a heat-pump badge; check the spec label."
+  },
+  {
+    "id": "troubleshoot-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "troubleshooting",
+    "title": "NimbusCool AC 1500 11 troubleshooting",
+    "text": "NimbusCool AC 1500 11 troubleshooting. Not cooling enough: clean the air filters, close windows and doors, and check that the outdoor unit is not blocked or in direct heat. Unit runs but blows warm air: the refrigerant charge or compressor may need service; do not attempt refrigerant work yourself. Water leaking from the indoor unit: the drain line is likely clogged, clear it gently. Remote not responding: replace batteries and point directly at the unit. Strange odor: clean the filters and evaporator. If the fix still failed, book a service visit."
+  },
+  {
+    "id": "errors-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "error_codes",
+    "title": "NimbusCool AC 1500 11 error codes and indicators",
+    "text": "NimbusCool AC 1500 11 error codes. E1 indicates an indoor temperature sensor fault. E2 signals a freeze-protection trip from restricted airflow: clean filters and restore airflow. E4 is a communication error between the indoor and outdoor units: check the interconnecting cable. P1 means high-pressure protection: shut down and call service. F0 indicates low refrigerant detected: professional service required."
+  },
+  {
+    "id": "care-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "maintenance",
+    "title": "NimbusCool AC 1500 11 maintenance and cleaning",
+    "text": "NimbusCool AC 1500 11 maintenance and cleaning. Remove and rinse the washable filters every two to four weeks and dry fully before refitting. Wipe the front louver and housing with a soft damp cloth. Keep the outdoor condenser clear of leaves and debris and ensure airflow around it. At season start, run a short test in Cool mode. Schedule professional servicing of coils and refrigerant annually for best efficiency."
+  },
+  {
+    "id": "safety-nimbus-ac-1500-11",
+    "product_id": "nimbus-ac-1500-11",
+    "kind": "safety",
+    "title": "NimbusCool AC 1500 11 safety guidance",
+    "text": "NimbusCool AC 1500 11 safety guidance. Always switch off at the wall before cleaning filters. Never insert objects into the louvers or fan. Refrigerant handling and any electrical or mounting work must be done by a certified technician. If you smell burning, see sparks, or the unit trips the breaker repeatedly, stop use and request service. Keep the remote and batteries away from small children."
+  },
+  {
+    "id": "manual-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "manual",
+    "title": "NimbusCool AC 1500 21 setup and first use",
+    "text": "To set up your NimbusCool AC 1500 21 split air conditioner, ensure the indoor unit is mounted level by a qualified installer and the drain line slopes away for condensate. Insert the supplied batteries in the remote, power on at the wall, and press Mode to select Cool. Set a target temperature a few degrees below room temperature and confirm cool air within a few minutes. For first use after install, run Cool mode for 30 minutes to clear residual factory odor. Need help? The remote display shows the active mode and set temperature."
+  },
+  {
+    "id": "faq-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "faq",
+    "title": "NimbusCool AC 1500 21 frequently asked questions",
+    "text": "Frequently asked questions for the NimbusCool AC 1500 21. What does Eco mode do? It widens the temperature band and softens compressor cycling to save power. Why is there water dripping outside? Condensate drainage is normal during cooling. What temperature is most efficient? Around 24-26 C balances comfort and energy. How often should the filter be cleaned? Every two to four weeks in heavy use. Can it heat? Only models with a heat-pump badge; check the spec label."
+  },
+  {
+    "id": "troubleshoot-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "troubleshooting",
+    "title": "NimbusCool AC 1500 21 troubleshooting",
+    "text": "NimbusCool AC 1500 21 troubleshooting. Not cooling enough: clean the air filters, close windows and doors, and check that the outdoor unit is not blocked or in direct heat. Unit runs but blows warm air: the refrigerant charge or compressor may need service; do not attempt refrigerant work yourself. Water leaking from the indoor unit: the drain line is likely clogged, clear it gently. Remote not responding: replace batteries and point directly at the unit. Strange odor: clean the filters and evaporator. If the fix still failed, book a service visit."
+  },
+  {
+    "id": "errors-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "error_codes",
+    "title": "NimbusCool AC 1500 21 error codes and indicators",
+    "text": "NimbusCool AC 1500 21 error codes. E1 indicates an indoor temperature sensor fault. E2 signals a freeze-protection trip from restricted airflow: clean filters and restore airflow. E4 is a communication error between the indoor and outdoor units: check the interconnecting cable. P1 means high-pressure protection: shut down and call service. F0 indicates low refrigerant detected: professional service required."
+  },
+  {
+    "id": "care-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "maintenance",
+    "title": "NimbusCool AC 1500 21 maintenance and cleaning",
+    "text": "NimbusCool AC 1500 21 maintenance and cleaning. Remove and rinse the washable filters every two to four weeks and dry fully before refitting. Wipe the front louver and housing with a soft damp cloth. Keep the outdoor condenser clear of leaves and debris and ensure airflow around it. At season start, run a short test in Cool mode. Schedule professional servicing of coils and refrigerant annually for best efficiency."
+  },
+  {
+    "id": "safety-nimbus-ac-1500-21",
+    "product_id": "nimbus-ac-1500-21",
+    "kind": "safety",
+    "title": "NimbusCool AC 1500 21 safety guidance",
+    "text": "NimbusCool AC 1500 21 safety guidance. Always switch off at the wall before cleaning filters. Never insert objects into the louvers or fan. Refrigerant handling and any electrical or mounting work must be done by a certified technician. If you smell burning, see sparks, or the unit trips the breaker repeatedly, stop use and request service. Keep the remote and batteries away from small children."
+  },
+  {
+    "id": "manual-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "manual",
+    "title": "SonicBar S20 setup and first use",
+    "text": "To set up your SonicBar S20 soundbar, place it centered below your TV and connect it with the supplied HDMI (ARC/eARC) cable to the matching TV port for the best experience; an optical cable is an alternative. Power on both devices, set the TV audio output to external or ARC, and select the soundbar input. Pair the remote and, if desired, connect by Bluetooth from your phone's settings. Need help? The front indicator shows the selected input and volume changes."
+  },
+  {
+    "id": "faq-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "faq",
+    "title": "SonicBar S20 frequently asked questions",
+    "text": "Frequently asked questions for the SonicBar S20. Why no sound over HDMI ARC? Enable HDMI-CEC/ARC in the TV settings and use the labeled ARC port. Can I connect by Bluetooth? Yes, select Bluetooth input and pair from your phone. What do the sound modes do? Movie boosts surround, Music balances tone, and Voice lifts dialogue. Can the TV remote control volume? Usually yes, once HDMI-CEC is enabled. Where is the subwoofer paired? It auto-pairs on power-up."
+  },
+  {
+    "id": "troubleshoot-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "troubleshooting",
+    "title": "SonicBar S20 troubleshooting",
+    "text": "SonicBar S20 troubleshooting. No sound: confirm the correct input is selected, the TV output is set to the soundbar, and the HDMI ARC port and CEC setting are correct. Audio out of sync: enable the audio-sync or lip-sync adjustment. Bluetooth keeps dropping: move closer, remove obstructions, and re-pair after clearing the old pairing. Subwoofer silent: re-pair it and check it is powered. Crackling: try a different cable or input. If the fix still failed, factory reset the soundbar."
+  },
+  {
+    "id": "errors-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "error_codes",
+    "title": "SonicBar S20 error codes and indicators",
+    "text": "SonicBar S20 indicators. A short LED pulse confirms each remote command. A slowly blinking Bluetooth light means it is in pairing mode; solid means connected. A blinking subwoofer light means it is searching for the soundbar; solid means paired. Rapid red blinking indicates a firmware-update or fault state; power-cycle and, if it persists, contact support."
+  },
+  {
+    "id": "care-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "maintenance",
+    "title": "SonicBar S20 maintenance and cleaning",
+    "text": "SonicBar S20 maintenance. Dust the grille gently with a soft dry brush or cloth; do not push objects through the speaker mesh. Keep firmware updated through the companion app for codec and stability improvements. Keep the soundbar and subwoofer ventilated and away from heat. Coil cables loosely to avoid strain on the connectors."
+  },
+  {
+    "id": "safety-sonicbar-s20",
+    "product_id": "sonicbar-s20",
+    "kind": "safety",
+    "title": "SonicBar S20 safety guidance",
+    "text": "SonicBar S20 safety guidance. Use only the supplied power adapter and route cables so they are not a trip hazard. Keep the unit away from liquids and do not place drinks on top. Mount it securely if wall-mounting, using appropriate anchors. Stop use if the adapter or cabling is damaged or the unit overheats."
+  },
+  {
+    "id": "manual-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "manual",
+    "title": "SonicBar S20 18 setup and first use",
+    "text": "To set up your SonicBar S20 18 soundbar, place it centered below your TV and connect it with the supplied HDMI (ARC/eARC) cable to the matching TV port for the best experience; an optical cable is an alternative. Power on both devices, set the TV audio output to external or ARC, and select the soundbar input. Pair the remote and, if desired, connect by Bluetooth from your phone's settings. Need help? The front indicator shows the selected input and volume changes."
+  },
+  {
+    "id": "faq-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "faq",
+    "title": "SonicBar S20 18 frequently asked questions",
+    "text": "Frequently asked questions for the SonicBar S20 18. Why no sound over HDMI ARC? Enable HDMI-CEC/ARC in the TV settings and use the labeled ARC port. Can I connect by Bluetooth? Yes, select Bluetooth input and pair from your phone. What do the sound modes do? Movie boosts surround, Music balances tone, and Voice lifts dialogue. Can the TV remote control volume? Usually yes, once HDMI-CEC is enabled. Where is the subwoofer paired? It auto-pairs on power-up."
+  },
+  {
+    "id": "troubleshoot-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "troubleshooting",
+    "title": "SonicBar S20 18 troubleshooting",
+    "text": "SonicBar S20 18 troubleshooting. No sound: confirm the correct input is selected, the TV output is set to the soundbar, and the HDMI ARC port and CEC setting are correct. Audio out of sync: enable the audio-sync or lip-sync adjustment. Bluetooth keeps dropping: move closer, remove obstructions, and re-pair after clearing the old pairing. Subwoofer silent: re-pair it and check it is powered. Crackling: try a different cable or input. If the fix still failed, factory reset the soundbar."
+  },
+  {
+    "id": "errors-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "error_codes",
+    "title": "SonicBar S20 18 error codes and indicators",
+    "text": "SonicBar S20 18 indicators. A short LED pulse confirms each remote command. A slowly blinking Bluetooth light means it is in pairing mode; solid means connected. A blinking subwoofer light means it is searching for the soundbar; solid means paired. Rapid red blinking indicates a firmware-update or fault state; power-cycle and, if it persists, contact support."
+  },
+  {
+    "id": "care-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "maintenance",
+    "title": "SonicBar S20 18 maintenance and cleaning",
+    "text": "SonicBar S20 18 maintenance. Dust the grille gently with a soft dry brush or cloth; do not push objects through the speaker mesh. Keep firmware updated through the companion app for codec and stability improvements. Keep the soundbar and subwoofer ventilated and away from heat. Coil cables loosely to avoid strain on the connectors."
+  },
+  {
+    "id": "safety-sonicbar-s20-18",
+    "product_id": "sonicbar-s20-18",
+    "kind": "safety",
+    "title": "SonicBar S20 18 safety guidance",
+    "text": "SonicBar S20 18 safety guidance. Use only the supplied power adapter and route cables so they are not a trip hazard. Keep the unit away from liquids and do not place drinks on top. Mount it securely if wall-mounting, using appropriate anchors. Stop use if the adapter or cabling is damaged or the unit overheats."
+  },
+  {
+    "id": "manual-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "manual",
+    "title": "SonicBar S20 28 setup and first use",
+    "text": "To set up your SonicBar S20 28 soundbar, place it centered below your TV and connect it with the supplied HDMI (ARC/eARC) cable to the matching TV port for the best experience; an optical cable is an alternative. Power on both devices, set the TV audio output to external or ARC, and select the soundbar input. Pair the remote and, if desired, connect by Bluetooth from your phone's settings. Need help? The front indicator shows the selected input and volume changes."
+  },
+  {
+    "id": "faq-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "faq",
+    "title": "SonicBar S20 28 frequently asked questions",
+    "text": "Frequently asked questions for the SonicBar S20 28. Why no sound over HDMI ARC? Enable HDMI-CEC/ARC in the TV settings and use the labeled ARC port. Can I connect by Bluetooth? Yes, select Bluetooth input and pair from your phone. What do the sound modes do? Movie boosts surround, Music balances tone, and Voice lifts dialogue. Can the TV remote control volume? Usually yes, once HDMI-CEC is enabled. Where is the subwoofer paired? It auto-pairs on power-up."
+  },
+  {
+    "id": "troubleshoot-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "troubleshooting",
+    "title": "SonicBar S20 28 troubleshooting",
+    "text": "SonicBar S20 28 troubleshooting. No sound: confirm the correct input is selected, the TV output is set to the soundbar, and the HDMI ARC port and CEC setting are correct. Audio out of sync: enable the audio-sync or lip-sync adjustment. Bluetooth keeps dropping: move closer, remove obstructions, and re-pair after clearing the old pairing. Subwoofer silent: re-pair it and check it is powered. Crackling: try a different cable or input. If the fix still failed, factory reset the soundbar."
+  },
+  {
+    "id": "errors-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "error_codes",
+    "title": "SonicBar S20 28 error codes and indicators",
+    "text": "SonicBar S20 28 indicators. A short LED pulse confirms each remote command. A slowly blinking Bluetooth light means it is in pairing mode; solid means connected. A blinking subwoofer light means it is searching for the soundbar; solid means paired. Rapid red blinking indicates a firmware-update or fault state; power-cycle and, if it persists, contact support."
+  },
+  {
+    "id": "care-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "maintenance",
+    "title": "SonicBar S20 28 maintenance and cleaning",
+    "text": "SonicBar S20 28 maintenance. Dust the grille gently with a soft dry brush or cloth; do not push objects through the speaker mesh. Keep firmware updated through the companion app for codec and stability improvements. Keep the soundbar and subwoofer ventilated and away from heat. Coil cables loosely to avoid strain on the connectors."
+  },
+  {
+    "id": "safety-sonicbar-s20-28",
+    "product_id": "sonicbar-s20-28",
+    "kind": "safety",
+    "title": "SonicBar S20 28 safety guidance",
+    "text": "SonicBar S20 28 safety guidance. Use only the supplied power adapter and route cables so they are not a trip hazard. Keep the unit away from liquids and do not place drinks on top. Mount it securely if wall-mounting, using appropriate anchors. Stop use if the adapter or cabling is damaged or the unit overheats."
+  },
+  {
+    "id": "manual-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "manual",
+    "title": "ThermoBoil Kettle K1 setup and first use",
+    "text": "To set up your ThermoBoil Kettle K1 electric kettle, rinse the interior, then fill with water to the max line and boil once, discarding that first boil to remove any manufacturing residue. Always seat the kettle squarely on its power base and keep the base and connector dry. Fill only between the min and max marks. Close the lid until it clicks so the auto-shutoff works correctly. Need help? The water-level window lets you fill precisely without overfilling."
+  },
+  {
+    "id": "faq-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "faq",
+    "title": "ThermoBoil Kettle K1 frequently asked questions",
+    "text": "Frequently asked questions for the ThermoBoil Kettle K1. Why does it switch off before boiling? An open lid or a kettle lifted off the base interrupts the cycle. Can I reboil immediately? Yes, but let it settle a few seconds so the thermostat resets. Why is there white residue? That is harmless limescale from hard water; descale regularly. Is the minimum fill important? Yes, boiling below the min line can trigger dry-boil protection."
+  },
+  {
+    "id": "troubleshoot-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "troubleshooting",
+    "title": "ThermoBoil Kettle K1 troubleshooting",
+    "text": "ThermoBoil Kettle K1 troubleshooting. Kettle will not turn on: confirm it is fully seated on the base and the outlet has power. It turns off too early: the lid may be open or limescale is tripping the thermostat, so descale it. Leaking: do not overfill past the max line and check the lid and spout for buildup; stop use if the base or cord gets wet. Slow to boil or noisy: heavy scale on the element is the usual cause. If the fix still failed after descaling, the element or thermostat may need replacement."
+  },
+  {
+    "id": "errors-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "error_codes",
+    "title": "ThermoBoil Kettle K1 error codes and indicators",
+    "text": "ThermoBoil Kettle K1 indicators. A steady light during heating is normal and turns off at boil. A rapidly flashing light with no heating indicates dry-boil or overheat protection has tripped: unplug, let it cool for 15 minutes, add water above the min line, and retry. If the light will not illuminate at all, the base contact or thermal cutoff has likely failed."
+  },
+  {
+    "id": "care-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "maintenance",
+    "title": "ThermoBoil Kettle K1 maintenance and cleaning",
+    "text": "ThermoBoil Kettle K1 maintenance. Descale every few weeks with a water-and-white-vinegar or citric-acid solution: fill to half, boil, let sit 20 minutes, then rinse thoroughly and boil clean water once. Wipe the exterior with a damp cloth only. Rinse and dry the removable spout filter. Never immerse the kettle or its base in water. Empty the kettle between uses to limit scale."
+  },
+  {
+    "id": "safety-thermoboil-k1",
+    "product_id": "thermoboil-k1",
+    "kind": "safety",
+    "title": "ThermoBoil Kettle K1 safety guidance",
+    "text": "ThermoBoil Kettle K1 safety guidance. Use only the base supplied with the kettle. Keep the cord away from the counter edge and out of children's reach. Do not open the lid while boiling, as escaping steam can scald. Never fill above the max line; hot water can spit from the spout. Stop use immediately if the cord, plug, or base shows any damage or moisture."
+  },
+  {
+    "id": "manual-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "manual",
+    "title": "ThermoBoil Kettle K1 13 setup and first use",
+    "text": "To set up your ThermoBoil Kettle K1 13 electric kettle, rinse the interior, then fill with water to the max line and boil once, discarding that first boil to remove any manufacturing residue. Always seat the kettle squarely on its power base and keep the base and connector dry. Fill only between the min and max marks. Close the lid until it clicks so the auto-shutoff works correctly. Need help? The water-level window lets you fill precisely without overfilling."
+  },
+  {
+    "id": "faq-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "faq",
+    "title": "ThermoBoil Kettle K1 13 frequently asked questions",
+    "text": "Frequently asked questions for the ThermoBoil Kettle K1 13. Why does it switch off before boiling? An open lid or a kettle lifted off the base interrupts the cycle. Can I reboil immediately? Yes, but let it settle a few seconds so the thermostat resets. Why is there white residue? That is harmless limescale from hard water; descale regularly. Is the minimum fill important? Yes, boiling below the min line can trigger dry-boil protection."
+  },
+  {
+    "id": "troubleshoot-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "troubleshooting",
+    "title": "ThermoBoil Kettle K1 13 troubleshooting",
+    "text": "ThermoBoil Kettle K1 13 troubleshooting. Kettle will not turn on: confirm it is fully seated on the base and the outlet has power. It turns off too early: the lid may be open or limescale is tripping the thermostat, so descale it. Leaking: do not overfill past the max line and check the lid and spout for buildup; stop use if the base or cord gets wet. Slow to boil or noisy: heavy scale on the element is the usual cause. If the fix still failed after descaling, the element or thermostat may need replacement."
+  },
+  {
+    "id": "errors-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "error_codes",
+    "title": "ThermoBoil Kettle K1 13 error codes and indicators",
+    "text": "ThermoBoil Kettle K1 13 indicators. A steady light during heating is normal and turns off at boil. A rapidly flashing light with no heating indicates dry-boil or overheat protection has tripped: unplug, let it cool for 15 minutes, add water above the min line, and retry. If the light will not illuminate at all, the base contact or thermal cutoff has likely failed."
+  },
+  {
+    "id": "care-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "maintenance",
+    "title": "ThermoBoil Kettle K1 13 maintenance and cleaning",
+    "text": "ThermoBoil Kettle K1 13 maintenance. Descale every few weeks with a water-and-white-vinegar or citric-acid solution: fill to half, boil, let sit 20 minutes, then rinse thoroughly and boil clean water once. Wipe the exterior with a damp cloth only. Rinse and dry the removable spout filter. Never immerse the kettle or its base in water. Empty the kettle between uses to limit scale."
+  },
+  {
+    "id": "safety-thermoboil-k1-13",
+    "product_id": "thermoboil-k1-13",
+    "kind": "safety",
+    "title": "ThermoBoil Kettle K1 13 safety guidance",
+    "text": "ThermoBoil Kettle K1 13 safety guidance. Use only the base supplied with the kettle. Keep the cord away from the counter edge and out of children's reach. Do not open the lid while boiling, as escaping steam can scald. Never fill above the max line; hot water can spit from the spout. Stop use immediately if the cord, plug, or base shows any damage or moisture."
+  },
+  {
+    "id": "manual-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "manual",
+    "title": "ThermoBoil Kettle K1 23 setup and first use",
+    "text": "To set up your ThermoBoil Kettle K1 23 electric kettle, rinse the interior, then fill with water to the max line and boil once, discarding that first boil to remove any manufacturing residue. Always seat the kettle squarely on its power base and keep the base and connector dry. Fill only between the min and max marks. Close the lid until it clicks so the auto-shutoff works correctly. Need help? The water-level window lets you fill precisely without overfilling."
+  },
+  {
+    "id": "faq-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "faq",
+    "title": "ThermoBoil Kettle K1 23 frequently asked questions",
+    "text": "Frequently asked questions for the ThermoBoil Kettle K1 23. Why does it switch off before boiling? An open lid or a kettle lifted off the base interrupts the cycle. Can I reboil immediately? Yes, but let it settle a few seconds so the thermostat resets. Why is there white residue? That is harmless limescale from hard water; descale regularly. Is the minimum fill important? Yes, boiling below the min line can trigger dry-boil protection."
+  },
+  {
+    "id": "troubleshoot-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "troubleshooting",
+    "title": "ThermoBoil Kettle K1 23 troubleshooting",
+    "text": "ThermoBoil Kettle K1 23 troubleshooting. Kettle will not turn on: confirm it is fully seated on the base and the outlet has power. It turns off too early: the lid may be open or limescale is tripping the thermostat, so descale it. Leaking: do not overfill past the max line and check the lid and spout for buildup; stop use if the base or cord gets wet. Slow to boil or noisy: heavy scale on the element is the usual cause. If the fix still failed after descaling, the element or thermostat may need replacement."
+  },
+  {
+    "id": "errors-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "error_codes",
+    "title": "ThermoBoil Kettle K1 23 error codes and indicators",
+    "text": "ThermoBoil Kettle K1 23 indicators. A steady light during heating is normal and turns off at boil. A rapidly flashing light with no heating indicates dry-boil or overheat protection has tripped: unplug, let it cool for 15 minutes, add water above the min line, and retry. If the light will not illuminate at all, the base contact or thermal cutoff has likely failed."
+  },
+  {
+    "id": "care-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "maintenance",
+    "title": "ThermoBoil Kettle K1 23 maintenance and cleaning",
+    "text": "ThermoBoil Kettle K1 23 maintenance. Descale every few weeks with a water-and-white-vinegar or citric-acid solution: fill to half, boil, let sit 20 minutes, then rinse thoroughly and boil clean water once. Wipe the exterior with a damp cloth only. Rinse and dry the removable spout filter. Never immerse the kettle or its base in water. Empty the kettle between uses to limit scale."
+  },
+  {
+    "id": "safety-thermoboil-k1-23",
+    "product_id": "thermoboil-k1-23",
+    "kind": "safety",
+    "title": "ThermoBoil Kettle K1 23 safety guidance",
+    "text": "ThermoBoil Kettle K1 23 safety guidance. Use only the base supplied with the kettle. Keep the cord away from the counter edge and out of children's reach. Do not open the lid while boiling, as escaping steam can scald. Never fill above the max line; hot water can spit from the spout. Stop use immediately if the cord, plug, or base shows any damage or moisture."
+  },
+  {
+    "id": "manual-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "manual",
+    "title": "ToastPro 2 Slice setup and first use",
+    "text": "To set up your ToastPro 2 Slice two-slice toaster, place it on a heat-resistant surface well clear of curtains and cabinets. Before first use, run one full cycle empty in a ventilated room to burn off manufacturing oils; a little smoke and odor is normal once. Set the browning dial to a middle setting for the first slice, then adjust to taste. Make sure the crumb tray is inserted. Need help? The browning dial increases from light to dark as the number rises."
+  },
+  {
+    "id": "faq-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "faq",
+    "title": "ToastPro 2 Slice frequently asked questions",
+    "text": "Frequently asked questions for the ToastPro 2 Slice. Why is one side darker? Most toasters toast slightly unevenly; rotate bread or use the bagel setting. What does the bagel setting do? It heats the inner elements more. Can I toast frozen bread? Yes, use the defrost button to add time. Why did it stop early? The cancel button or an empty-slot sensor may have triggered. Is smoke ever normal? Only on the first empty burn-in cycle."
+  },
+  {
+    "id": "troubleshoot-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "troubleshooting",
+    "title": "ToastPro 2 Slice troubleshooting",
+    "text": "ToastPro 2 Slice troubleshooting. Lever will not stay down: the toaster is electromagnetic, so confirm it is plugged into a live outlet, as the lever only latches with power. Toast is too light or too dark: adjust the browning dial and note that the second batch toasts faster when the unit is warm. Smoke during use: unplug and remove crumbs from the crumb tray and slots. Uneven toasting: clean the slots and avoid oversized slices. If the lever still failed to latch after confirming power, the solenoid needs service."
+  },
+  {
+    "id": "errors-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "error_codes",
+    "title": "ToastPro 2 Slice error codes and indicators",
+    "text": "ToastPro 2 Slice indicators. The cancel light glows while a cycle is running and turns off when toast pops up. There are no numeric error codes on this model. A lever that will not latch almost always means no power at the outlet rather than a fault. Continuous tripping of your breaker indicates an internal short and the unit should be retired."
+  },
+  {
+    "id": "care-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "maintenance",
+    "title": "ToastPro 2 Slice maintenance and cleaning",
+    "text": "ToastPro 2 Slice maintenance and cleaning. Unplug and cool fully before cleaning. Slide out the crumb tray and empty it after every few uses to prevent smoke and fire risk. Turn the unplugged toaster upside down over a sink and shake gently to dislodge crumbs. Wipe the exterior with a damp cloth. Never insert metal utensils into the slots, even to remove stuck bread."
+  },
+  {
+    "id": "safety-toastpro-2s",
+    "product_id": "toastpro-2s",
+    "kind": "safety",
+    "title": "ToastPro 2 Slice safety guidance",
+    "text": "ToastPro 2 Slice safety guidance. Never insert forks, knives, or fingers into the slots; unplug first if bread is stuck and let it cool. Do not cover the toaster or operate it under cabinets or near flammable items. Bread can catch fire if left unattended, so stay nearby. Keep the crumb tray clean and in place. Stop use if the cord is damaged or the unit smells of burning plastic."
+  },
+  {
+    "id": "manual-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "manual",
+    "title": "ToastPro 2 Slice 12 setup and first use",
+    "text": "To set up your ToastPro 2 Slice 12 two-slice toaster, place it on a heat-resistant surface well clear of curtains and cabinets. Before first use, run one full cycle empty in a ventilated room to burn off manufacturing oils; a little smoke and odor is normal once. Set the browning dial to a middle setting for the first slice, then adjust to taste. Make sure the crumb tray is inserted. Need help? The browning dial increases from light to dark as the number rises."
+  },
+  {
+    "id": "faq-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "faq",
+    "title": "ToastPro 2 Slice 12 frequently asked questions",
+    "text": "Frequently asked questions for the ToastPro 2 Slice 12. Why is one side darker? Most toasters toast slightly unevenly; rotate bread or use the bagel setting. What does the bagel setting do? It heats the inner elements more. Can I toast frozen bread? Yes, use the defrost button to add time. Why did it stop early? The cancel button or an empty-slot sensor may have triggered. Is smoke ever normal? Only on the first empty burn-in cycle."
+  },
+  {
+    "id": "troubleshoot-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "troubleshooting",
+    "title": "ToastPro 2 Slice 12 troubleshooting",
+    "text": "ToastPro 2 Slice 12 troubleshooting. Lever will not stay down: the toaster is electromagnetic, so confirm it is plugged into a live outlet, as the lever only latches with power. Toast is too light or too dark: adjust the browning dial and note that the second batch toasts faster when the unit is warm. Smoke during use: unplug and remove crumbs from the crumb tray and slots. Uneven toasting: clean the slots and avoid oversized slices. If the lever still failed to latch after confirming power, the solenoid needs service."
+  },
+  {
+    "id": "errors-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "error_codes",
+    "title": "ToastPro 2 Slice 12 error codes and indicators",
+    "text": "ToastPro 2 Slice 12 indicators. The cancel light glows while a cycle is running and turns off when toast pops up. There are no numeric error codes on this model. A lever that will not latch almost always means no power at the outlet rather than a fault. Continuous tripping of your breaker indicates an internal short and the unit should be retired."
+  },
+  {
+    "id": "care-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "maintenance",
+    "title": "ToastPro 2 Slice 12 maintenance and cleaning",
+    "text": "ToastPro 2 Slice 12 maintenance and cleaning. Unplug and cool fully before cleaning. Slide out the crumb tray and empty it after every few uses to prevent smoke and fire risk. Turn the unplugged toaster upside down over a sink and shake gently to dislodge crumbs. Wipe the exterior with a damp cloth. Never insert metal utensils into the slots, even to remove stuck bread."
+  },
+  {
+    "id": "safety-toastpro-2s-12",
+    "product_id": "toastpro-2s-12",
+    "kind": "safety",
+    "title": "ToastPro 2 Slice 12 safety guidance",
+    "text": "ToastPro 2 Slice 12 safety guidance. Never insert forks, knives, or fingers into the slots; unplug first if bread is stuck and let it cool. Do not cover the toaster or operate it under cabinets or near flammable items. Bread can catch fire if left unattended, so stay nearby. Keep the crumb tray clean and in place. Stop use if the cord is damaged or the unit smells of burning plastic."
+  },
+  {
+    "id": "manual-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "manual",
+    "title": "ToastPro 2 Slice 22 setup and first use",
+    "text": "To set up your ToastPro 2 Slice 22 two-slice toaster, place it on a heat-resistant surface well clear of curtains and cabinets. Before first use, run one full cycle empty in a ventilated room to burn off manufacturing oils; a little smoke and odor is normal once. Set the browning dial to a middle setting for the first slice, then adjust to taste. Make sure the crumb tray is inserted. Need help? The browning dial increases from light to dark as the number rises."
+  },
+  {
+    "id": "faq-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "faq",
+    "title": "ToastPro 2 Slice 22 frequently asked questions",
+    "text": "Frequently asked questions for the ToastPro 2 Slice 22. Why is one side darker? Most toasters toast slightly unevenly; rotate bread or use the bagel setting. What does the bagel setting do? It heats the inner elements more. Can I toast frozen bread? Yes, use the defrost button to add time. Why did it stop early? The cancel button or an empty-slot sensor may have triggered. Is smoke ever normal? Only on the first empty burn-in cycle."
+  },
+  {
+    "id": "troubleshoot-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "troubleshooting",
+    "title": "ToastPro 2 Slice 22 troubleshooting",
+    "text": "ToastPro 2 Slice 22 troubleshooting. Lever will not stay down: the toaster is electromagnetic, so confirm it is plugged into a live outlet, as the lever only latches with power. Toast is too light or too dark: adjust the browning dial and note that the second batch toasts faster when the unit is warm. Smoke during use: unplug and remove crumbs from the crumb tray and slots. Uneven toasting: clean the slots and avoid oversized slices. If the lever still failed to latch after confirming power, the solenoid needs service."
+  },
+  {
+    "id": "errors-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "error_codes",
+    "title": "ToastPro 2 Slice 22 error codes and indicators",
+    "text": "ToastPro 2 Slice 22 indicators. The cancel light glows while a cycle is running and turns off when toast pops up. There are no numeric error codes on this model. A lever that will not latch almost always means no power at the outlet rather than a fault. Continuous tripping of your breaker indicates an internal short and the unit should be retired."
+  },
+  {
+    "id": "care-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "maintenance",
+    "title": "ToastPro 2 Slice 22 maintenance and cleaning",
+    "text": "ToastPro 2 Slice 22 maintenance and cleaning. Unplug and cool fully before cleaning. Slide out the crumb tray and empty it after every few uses to prevent smoke and fire risk. Turn the unplugged toaster upside down over a sink and shake gently to dislodge crumbs. Wipe the exterior with a damp cloth. Never insert metal utensils into the slots, even to remove stuck bread."
+  },
+  {
+    "id": "safety-toastpro-2s-22",
+    "product_id": "toastpro-2s-22",
+    "kind": "safety",
+    "title": "ToastPro 2 Slice 22 safety guidance",
+    "text": "ToastPro 2 Slice 22 safety guidance. Never insert forks, knives, or fingers into the slots; unplug first if bread is stuck and let it cool. Do not cover the toaster or operate it under cabinets or near flammable items. Bread can catch fire if left unattended, so stay nearby. Keep the crumb tray clean and in place. Stop use if the cord is damaged or the unit smells of burning plastic."
+  },
+  {
+    "id": "manual-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "manual",
+    "title": "WaveHub Router R5 setup and first use",
+    "text": "To set up your WaveHub Router R5, connect the WAN port to your modem with the supplied Ethernet cable, then power on and wait about 90 seconds for the status LED to turn solid. Connect a phone or laptop to the default Wi-Fi network printed on the base label, open the setup portal at the listed address, and follow the wizard to set your network name, password, and admin login. For best coverage, place the router in a central, elevated, open location away from metal and microwaves. Need help? The LED guide on the label maps each light color to a setup state."
+  },
+  {
+    "id": "faq-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "faq",
+    "title": "WaveHub Router R5 frequently asked questions",
+    "text": "Frequently asked questions for the WaveHub Router R5. What is the difference between the 2.4 GHz and 5 GHz bands? 2.4 GHz reaches farther through walls; 5 GHz is faster at shorter range. How many devices can connect? Up to 64 simultaneous clients. Can I use it in bridge or access-point mode? Yes, from the advanced settings. Where is the admin password? On the base label until you change it. Does it support guest Wi-Fi? Yes, enable a separate guest SSID in the portal."
+  },
+  {
+    "id": "troubleshoot-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "troubleshooting",
+    "title": "WaveHub Router R5 troubleshooting",
+    "text": "WaveHub Router R5 troubleshooting. No internet but the router is on: check that the modem is online, reseat the WAN cable, and power-cycle the modem and router in order. Wi-Fi keeps dropping: reduce interference by changing the channel, move the router higher and central, and update firmware. Slow speeds: test with an Ethernet cable to isolate Wi-Fi, and separate the 5 GHz band for nearby devices. Forgot the admin password: hold the recessed reset button for 10 seconds to factory reset. If the fix still failed, collect the LED pattern and contact support."
+  },
+  {
+    "id": "errors-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "error_codes",
+    "title": "WaveHub Router R5 error codes and indicators",
+    "text": "WaveHub Router R5 status indicators. Solid white: healthy and online. Solid amber: connected to the router but no internet from the modem. Blinking amber: firmware update in progress, do not power off. Solid red: no WAN link detected, check the modem cable. Blinking red: hardware self-test failure, factory reset and if it persists, request replacement."
+  },
+  {
+    "id": "care-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "maintenance",
+    "title": "WaveHub Router R5 maintenance and cleaning",
+    "text": "WaveHub Router R5 maintenance. Keep firmware current via the auto-update setting for security patches and stability. Reboot monthly to clear memory. Keep vents dust-free and never stack items on top, as the router relies on passive cooling. Periodically review connected devices and rotate the Wi-Fi password if you suspect unauthorized access. Back up your settings before any major firmware upgrade."
+  },
+  {
+    "id": "safety-wavehub-r5",
+    "product_id": "wavehub-r5",
+    "kind": "safety",
+    "title": "WaveHub Router R5 safety guidance",
+    "text": "WaveHub Router R5 safety guidance. Use only the supplied power adapter; a mismatched adapter can overheat the unit. Do not cover the router or place it inside an enclosed cabinet. Keep it away from water and heat sources. If the casing becomes hot to the touch, smells of burning, or the adapter is frayed, unplug it and stop use."
+  },
+  {
+    "id": "manual-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "manual",
+    "title": "WaveHub Router R5 17 setup and first use",
+    "text": "To set up your WaveHub Router R5 17, connect the WAN port to your modem with the supplied Ethernet cable, then power on and wait about 90 seconds for the status LED to turn solid. Connect a phone or laptop to the default Wi-Fi network printed on the base label, open the setup portal at the listed address, and follow the wizard to set your network name, password, and admin login. For best coverage, place the router in a central, elevated, open location away from metal and microwaves. Need help? The LED guide on the label maps each light color to a setup state."
+  },
+  {
+    "id": "faq-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "faq",
+    "title": "WaveHub Router R5 17 frequently asked questions",
+    "text": "Frequently asked questions for the WaveHub Router R5 17. What is the difference between the 2.4 GHz and 5 GHz bands? 2.4 GHz reaches farther through walls; 5 GHz is faster at shorter range. How many devices can connect? Up to 64 simultaneous clients. Can I use it in bridge or access-point mode? Yes, from the advanced settings. Where is the admin password? On the base label until you change it. Does it support guest Wi-Fi? Yes, enable a separate guest SSID in the portal."
+  },
+  {
+    "id": "troubleshoot-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "troubleshooting",
+    "title": "WaveHub Router R5 17 troubleshooting",
+    "text": "WaveHub Router R5 17 troubleshooting. No internet but the router is on: check that the modem is online, reseat the WAN cable, and power-cycle the modem and router in order. Wi-Fi keeps dropping: reduce interference by changing the channel, move the router higher and central, and update firmware. Slow speeds: test with an Ethernet cable to isolate Wi-Fi, and separate the 5 GHz band for nearby devices. Forgot the admin password: hold the recessed reset button for 10 seconds to factory reset. If the fix still failed, collect the LED pattern and contact support."
+  },
+  {
+    "id": "errors-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "error_codes",
+    "title": "WaveHub Router R5 17 error codes and indicators",
+    "text": "WaveHub Router R5 17 status indicators. Solid white: healthy and online. Solid amber: connected to the router but no internet from the modem. Blinking amber: firmware update in progress, do not power off. Solid red: no WAN link detected, check the modem cable. Blinking red: hardware self-test failure, factory reset and if it persists, request replacement."
+  },
+  {
+    "id": "care-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "maintenance",
+    "title": "WaveHub Router R5 17 maintenance and cleaning",
+    "text": "WaveHub Router R5 17 maintenance. Keep firmware current via the auto-update setting for security patches and stability. Reboot monthly to clear memory. Keep vents dust-free and never stack items on top, as the router relies on passive cooling. Periodically review connected devices and rotate the Wi-Fi password if you suspect unauthorized access. Back up your settings before any major firmware upgrade."
+  },
+  {
+    "id": "safety-wavehub-r5-17",
+    "product_id": "wavehub-r5-17",
+    "kind": "safety",
+    "title": "WaveHub Router R5 17 safety guidance",
+    "text": "WaveHub Router R5 17 safety guidance. Use only the supplied power adapter; a mismatched adapter can overheat the unit. Do not cover the router or place it inside an enclosed cabinet. Keep it away from water and heat sources. If the casing becomes hot to the touch, smells of burning, or the adapter is frayed, unplug it and stop use."
+  },
+  {
+    "id": "manual-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "manual",
+    "title": "WaveHub Router R5 27 setup and first use",
+    "text": "To set up your WaveHub Router R5 27, connect the WAN port to your modem with the supplied Ethernet cable, then power on and wait about 90 seconds for the status LED to turn solid. Connect a phone or laptop to the default Wi-Fi network printed on the base label, open the setup portal at the listed address, and follow the wizard to set your network name, password, and admin login. For best coverage, place the router in a central, elevated, open location away from metal and microwaves. Need help? The LED guide on the label maps each light color to a setup state."
+  },
+  {
+    "id": "faq-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "faq",
+    "title": "WaveHub Router R5 27 frequently asked questions",
+    "text": "Frequently asked questions for the WaveHub Router R5 27. What is the difference between the 2.4 GHz and 5 GHz bands? 2.4 GHz reaches farther through walls; 5 GHz is faster at shorter range. How many devices can connect? Up to 64 simultaneous clients. Can I use it in bridge or access-point mode? Yes, from the advanced settings. Where is the admin password? On the base label until you change it. Does it support guest Wi-Fi? Yes, enable a separate guest SSID in the portal."
+  },
+  {
+    "id": "troubleshoot-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "troubleshooting",
+    "title": "WaveHub Router R5 27 troubleshooting",
+    "text": "WaveHub Router R5 27 troubleshooting. No internet but the router is on: check that the modem is online, reseat the WAN cable, and power-cycle the modem and router in order. Wi-Fi keeps dropping: reduce interference by changing the channel, move the router higher and central, and update firmware. Slow speeds: test with an Ethernet cable to isolate Wi-Fi, and separate the 5 GHz band for nearby devices. Forgot the admin password: hold the recessed reset button for 10 seconds to factory reset. If the fix still failed, collect the LED pattern and contact support."
+  },
+  {
+    "id": "errors-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "error_codes",
+    "title": "WaveHub Router R5 27 error codes and indicators",
+    "text": "WaveHub Router R5 27 status indicators. Solid white: healthy and online. Solid amber: connected to the router but no internet from the modem. Blinking amber: firmware update in progress, do not power off. Solid red: no WAN link detected, check the modem cable. Blinking red: hardware self-test failure, factory reset and if it persists, request replacement."
+  },
+  {
+    "id": "care-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "maintenance",
+    "title": "WaveHub Router R5 27 maintenance and cleaning",
+    "text": "WaveHub Router R5 27 maintenance. Keep firmware current via the auto-update setting for security patches and stability. Reboot monthly to clear memory. Keep vents dust-free and never stack items on top, as the router relies on passive cooling. Periodically review connected devices and rotate the Wi-Fi password if you suspect unauthorized access. Back up your settings before any major firmware upgrade."
+  },
+  {
+    "id": "safety-wavehub-r5-27",
+    "product_id": "wavehub-r5-27",
+    "kind": "safety",
+    "title": "WaveHub Router R5 27 safety guidance",
+    "text": "WaveHub Router R5 27 safety guidance. Use only the supplied power adapter; a mismatched adapter can overheat the unit. Do not cover the router or place it inside an enclosed cabinet. Keep it away from water and heat sources. If the casing becomes hot to the touch, smells of burning, or the adapter is frayed, unplug it and stop use."
+  }
+]

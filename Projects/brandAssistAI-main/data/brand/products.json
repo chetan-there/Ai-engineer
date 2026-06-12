@@ -1,0 +1,380 @@
+[
+  {
+    "id": "nimbus-ac-1500",
+    "name": "NimbusCool AC 1500",
+    "category": "climate",
+    "aliases": [
+      "ac",
+      "air conditioner",
+      "split ac"
+    ],
+    "tags": [
+      "cooling",
+      "filter"
+    ]
+  },
+  {
+    "id": "toastpro-2s",
+    "name": "ToastPro 2 Slice",
+    "category": "kitchen",
+    "aliases": [
+      "toaster",
+      "bread toaster"
+    ],
+    "tags": [
+      "heating",
+      "crumb"
+    ]
+  },
+  {
+    "id": "thermoboil-k1",
+    "name": "ThermoBoil Kettle K1",
+    "category": "kitchen",
+    "aliases": [
+      "kettle",
+      "electric kettle"
+    ],
+    "tags": [
+      "boil",
+      "heating"
+    ]
+  },
+  {
+    "id": "microchef-20l",
+    "name": "MicroChef 20L",
+    "category": "kitchen",
+    "aliases": [
+      "microwave"
+    ],
+    "tags": [
+      "heating",
+      "turntable"
+    ]
+  },
+  {
+    "id": "aeropure-220",
+    "name": "AeroPure 220",
+    "category": "climate",
+    "aliases": [
+      "air purifier"
+    ],
+    "tags": [
+      "filter",
+      "airflow"
+    ]
+  },
+  {
+    "id": "dustmate-v10",
+    "name": "DustMate V10",
+    "category": "homecare",
+    "aliases": [
+      "vacuum"
+    ],
+    "tags": [
+      "suction",
+      "filter"
+    ]
+  },
+  {
+    "id": "wavehub-r5",
+    "name": "WaveHub Router R5",
+    "category": "networking",
+    "aliases": [
+      "router",
+      "wifi router"
+    ],
+    "tags": [
+      "wifi",
+      "network"
+    ]
+  },
+  {
+    "id": "sonicbar-s20",
+    "name": "SonicBar S20",
+    "category": "audio",
+    "aliases": [
+      "soundbar"
+    ],
+    "tags": [
+      "audio",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": "breezefan-f7",
+    "name": "BreezeFan F7",
+    "category": "climate",
+    "aliases": [
+      "fan",
+      "table fan"
+    ],
+    "tags": [
+      "airflow",
+      "motor"
+    ]
+  },
+  {
+    "id": "blendgo-b2",
+    "name": "BlendGo B2",
+    "category": "kitchen",
+    "aliases": [
+      "blender"
+    ],
+    "tags": [
+      "blade",
+      "motor"
+    ]
+  },
+  {
+    "id": "nimbus-ac-1500-11",
+    "name": "NimbusCool AC 1500 11",
+    "category": "climate",
+    "aliases": [
+      "ac",
+      "air conditioner",
+      "split ac"
+    ],
+    "tags": [
+      "cooling",
+      "filter"
+    ]
+  },
+  {
+    "id": "toastpro-2s-12",
+    "name": "ToastPro 2 Slice 12",
+    "category": "kitchen",
+    "aliases": [
+      "toaster",
+      "bread toaster"
+    ],
+    "tags": [
+      "heating",
+      "crumb"
+    ]
+  },
+  {
+    "id": "thermoboil-k1-13",
+    "name": "ThermoBoil Kettle K1 13",
+    "category": "kitchen",
+    "aliases": [
+      "kettle",
+      "electric kettle"
+    ],
+    "tags": [
+      "boil",
+      "heating"
+    ]
+  },
+  {
+    "id": "microchef-20l-14",
+    "name": "MicroChef 20L 14",
+    "category": "kitchen",
+    "aliases": [
+      "microwave"
+    ],
+    "tags": [
+      "heating",
+      "turntable"
+    ]
+  },
+  {
+    "id": "aeropure-220-15",
+    "name": "AeroPure 220 15",
+    "category": "climate",
+    "aliases": [
+      "air purifier"
+    ],
+    "tags": [
+      "filter",
+      "airflow"
+    ]
+  },
+  {
+    "id": "dustmate-v10-16",
+    "name": "DustMate V10 16",
+    "category": "homecare",
+    "aliases": [
+      "vacuum"
+    ],
+    "tags": [
+      "suction",
+      "filter"
+    ]
+  },
+  {
+    "id": "wavehub-r5-17",
+    "name": "WaveHub Router R5 17",
+    "category": "networking",
+    "aliases": [
+      "router",
+      "wifi router"
+    ],
+    "tags": [
+      "wifi",
+      "network"
+    ]
+  },
+  {
+    "id": "sonicbar-s20-18",
+    "name": "SonicBar S20 18",
+    "category": "audio",
+    "aliases": [
+      "soundbar"
+    ],
+    "tags": [
+      "audio",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": "breezefan-f7-19",
+    "name": "BreezeFan F7 19",
+    "category": "climate",
+    "aliases": [
+      "fan",
+      "table fan"
+    ],
+    "tags": [
+      "airflow",
+      "motor"
+    ]
+  },
+  {
+    "id": "blendgo-b2-20",
+    "name": "BlendGo B2 20",
+    "category": "kitchen",
+    "aliases": [
+      "blender"
+    ],
+    "tags": [
+      "blade",
+      "motor"
+    ]
+  },
+  {
+    "id": "nimbus-ac-1500-21",
+    "name": "NimbusCool AC 1500 21",
+    "category": "climate",
+    "aliases": [
+      "ac",
+      "air conditioner",
+      "split ac"
+    ],
+    "tags": [
+      "cooling",
+      "filter"
+    ]
+  },
+  {
+    "id": "toastpro-2s-22",
+    "name": "ToastPro 2 Slice 22",
+    "category": "kitchen",
+    "aliases": [
+      "toaster",
+      "bread toaster"
+    ],
+    "tags": [
+      "heating",
+      "crumb"
+    ]
+  },
+  {
+    "id": "thermoboil-k1-23",
+    "name": "ThermoBoil Kettle K1 23",
+    "category": "kitchen",
+    "aliases": [
+      "kettle",
+      "electric kettle"
+    ],
+    "tags": [
+      "boil",
+      "heating"
+    ]
+  },
+  {
+    "id": "microchef-20l-24",
+    "name": "MicroChef 20L 24",
+    "category": "kitchen",
+    "aliases": [
+      "microwave"
+    ],
+    "tags": [
+      "heating",
+      "turntable"
+    ]
+  },
+  {
+    "id": "aeropure-220-25",
+    "name": "AeroPure 220 25",
+    "category": "climate",
+    "aliases": [
+      "air purifier"
+    ],
+    "tags": [
+      "filter",
+      "airflow"
+    ]
+  },
+  {
+    "id": "dustmate-v10-26",
+    "name": "DustMate V10 26",
+    "category": "homecare",
+    "aliases": [
+      "vacuum"
+    ],
+    "tags": [
+      "suction",
+      "filter"
+    ]
+  },
+  {
+    "id": "wavehub-r5-27",
+    "name": "WaveHub Router R5 27",
+    "category": "networking",
+    "aliases": [
+      "router",
+      "wifi router"
+    ],
+    "tags": [
+      "wifi",
+      "network"
+    ]
+  },
+  {
+    "id": "sonicbar-s20-28",
+    "name": "SonicBar S20 28",
+    "category": "audio",
+    "aliases": [
+      "soundbar"
+    ],
+    "tags": [
+      "audio",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": "breezefan-f7-29",
+    "name": "BreezeFan F7 29",
+    "category": "climate",
+    "aliases": [
+      "fan",
+      "table fan"
+    ],
+    "tags": [
+      "airflow",
+      "motor"
+    ]
+  },
+  {
+    "id": "blendgo-b2-30",
+    "name": "BlendGo B2 30",
+    "category": "kitchen",
+    "aliases": [
+      "blender"
+    ],
+    "tags": [
+      "blade",
+      "motor"
+    ]
+  }
+]
