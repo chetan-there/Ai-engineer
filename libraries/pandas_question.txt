@@ -1,0 +1,294 @@
+Based on your interview sheet pattern, here are Pandas Interview Practice Questions for an aspiring AI Engineer.
+PANDAS – INTERVIEW QUESTIONS & ANSWERS
+PART 1: BASICS
+1. What is Pandas?
+Answer:
+Pandas is an open-source Python library used for data manipulation and analysis.
+Explanation:
+It provides powerful data structures like Series and DataFrame to work with structured data efficiently.
+________________________________________
+2. Why do we use Pandas?
+Answer:
+We use Pandas to clean, transform, analyze, and manipulate data.
+Explanation:
+Most AI/ML projects spend 70-80% of time in data preprocessing, where Pandas is heavily used.
+________________________________________
+3. What are the main data structures in Pandas?
+Answer:
+1.	Series
+2.	DataFrame
+Explanation:
+•	Series → 1D data structure
+•	DataFrame → 2D tabular structure
+________________________________________
+4. What is a Series?
+Answer:
+A Series is a one-dimensional labeled array.
+Explanation:
+import pandas as pd
+
+s = pd.Series([10,20,30])
+Similar to:
+[10,20,30]
+but with indexing.
+________________________________________
+5. What is a DataFrame?
+Answer:
+A DataFrame is a two-dimensional tabular data structure consisting of rows and columns.
+Explanation:
+df = pd.DataFrame({
+    "name":["Amit","Rahul"],
+    "age":[22,25]
+})
+Looks like:
+name	age
+Amit	22
+Rahul	25
+________________________________________
+6. Difference Between Series and DataFrame
+Feature	Series	DataFrame
+Dimension	1D	2D
+Columns	No	Yes
+Example	Single Column	Multiple Columns
+________________________________________
+PART 2: DATA LOADING
+7. How do you read a CSV file?
+Answer:
+df = pd.read_csv("data.csv")
+________________________________________
+8. How do you read an Excel file?
+Answer:
+df = pd.read_excel("data.xlsx")
+________________________________________
+9. How do you display first 5 rows?
+Answer:
+df.head()
+________________________________________
+10. How do you display last 5 rows?
+Answer:
+df.tail()
+________________________________________
+11. How do you check dataframe shape?
+Answer:
+df.shape
+Explanation:
+Returns:
+(rows, columns)
+________________________________________
+12. How do you get column names?
+Answer:
+df.columns
+________________________________________
+13. How do you get dataframe information?
+Answer:
+df.info()
+Explanation:
+Shows:
+•	Column names
+•	Datatypes
+•	Null counts
+•	Memory usage
+________________________________________
+14. How do you get statistical summary?
+Answer:
+df.describe()
+________________________________________
+PART 3: SELECTING DATA
+15. How do you select a column?
+Answer:
+df["age"]
+Alternative:
+df.age
+________________________________________
+16. How do you select multiple columns?
+Answer:
+df[["name","age"]]
+________________________________________
+17. How do you select rows using index?
+Answer:
+df.iloc[0]
+________________________________________
+18. What is iloc?
+Answer:
+iloc selects data using integer positions.
+Explanation:
+df.iloc[0]
+df.iloc[0:5]
+________________________________________
+19. What is loc?
+Answer:
+loc selects data using labels.
+Explanation:
+df.loc[0]
+________________________________________
+20. Difference Between loc and iloc
+Feature	loc	iloc
+Uses Labels	Yes	No
+Uses Index Position	No	Yes
+________________________________________
+PART 4: FILTERING
+21. How do you filter age greater than 25?
+Answer:
+df[df["age"] > 25]
+________________________________________
+22. How do you filter multiple conditions?
+Answer:
+df[
+    (df["age"] > 25)
+    &
+    (df["salary"] > 50000)
+]
+________________________________________
+23. AND operator in Pandas?
+Answer:
+&
+________________________________________
+24. OR operator in Pandas?
+Answer:
+|
+________________________________________
+25. NOT operator in Pandas?
+Answer:
+~
+________________________________________
+PART 5: MISSING VALUES
+26. How do you find null values?
+Answer:
+df.isnull()
+________________________________________
+27. How do you count null values?
+Answer:
+df.isnull().sum()
+________________________________________
+28. How do you remove null values?
+Answer:
+df.dropna()
+________________________________________
+29. How do you replace null with 0?
+Answer:
+df.fillna(0)
+________________________________________
+30. Why are null values dangerous in AI?
+Answer:
+They can cause incorrect training and model failures.
+Explanation:
+Most ML algorithms cannot handle missing values directly.
+________________________________________
+PART 6: SORTING
+31. How do you sort ascending?
+Answer:
+df.sort_values("age")
+________________________________________
+32. How do you sort descending?
+Answer:
+df.sort_values(
+    "age",
+    ascending=False
+)
+________________________________________
+33. Why do we sort data?
+Answer:
+To identify:
+•	Highest values
+•	Lowest values
+•	Top performers
+•	Trends
+________________________________________
+PART 7: GROUPBY
+34. What is GroupBy?
+Answer:
+GroupBy groups similar records and performs aggregation.
+________________________________________
+35. Example of GroupBy
+df.groupby("department")["salary"].mean()
+________________________________________
+36. Common aggregation functions?
+Answer:
+sum()
+mean()
+max()
+min()
+count()
+std()
+________________________________________
+PART 8: MERGING
+37. What is Merge?
+Answer:
+Merge combines two DataFrames.
+________________________________________
+38. Example
+pd.merge(
+    df1,
+    df2,
+    on="id"
+)
+________________________________________
+39. SQL equivalent of Merge?
+Answer:
+JOIN
+________________________________________
+PART 9: AI ENGINEER IMPORTANT QUESTIONS
+40. How do you remove duplicate rows?
+df.drop_duplicates()
+________________________________________
+41. How do you rename columns?
+df.rename(
+    columns={"age":"Age"}
+)
+________________________________________
+42. How do you create a new column?
+df["bonus"] = df["salary"] * 0.1
+________________________________________
+43. How do you delete a column?
+df.drop(
+    "bonus",
+    axis=1
+)
+________________________________________
+44. How do you convert datatype?
+df["age"] = df["age"].astype(int)
+________________________________________
+45. How do you find unique values?
+df["city"].unique()
+________________________________________
+46. How do you count unique values?
+df["city"].nunique()
+________________________________________
+47. How do you count occurrences?
+df["city"].value_counts()
+________________________________________
+48. Why is Pandas important for AI Engineers?
+Answer:
+Because it is used for:
+•	Data Cleaning
+•	Data Transformation
+•	Feature Engineering
+•	EDA (Exploratory Data Analysis)
+•	Data Preparation
+before training AI/ML models.
+________________________________________
+QUICK MEMORY TRICK
+Series
+1D
+Single Column
+DataFrame
+2D
+Rows + Columns
+loc
+Label Based
+iloc
+Index Based
+dropna()
+Remove Null
+fillna()
+Replace Null
+groupby()
+Group + Aggregate
+merge()
+SQL JOIN
+value_counts()
+Frequency Count
+sort_values()
+Sorting
+For AI Engineer interviews, these ~45-50 Pandas questions cover about 90% of what freshers and junior AI Engineers are asked.
+

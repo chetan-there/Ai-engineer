@@ -1,0 +1,291 @@
+NUMPY – INTERVIEW QUESTIONS & ANSWERS
+PART 1: BASICS
+1. What is NumPy?
+Answer:
+NumPy (Numerical Python) is an open-source Python library used for numerical and scientific computing.
+Explanation:
+It provides fast multidimensional arrays and mathematical operations.
+________________________________________
+2. Why do we use NumPy?
+Answer:
+NumPy is used for fast mathematical computations and efficient data storage.
+Explanation:
+NumPy arrays are much faster and more memory-efficient than Python lists.
+________________________________________
+3. What is an ndarray?
+Answer:
+ndarray (N-Dimensional Array) is the core data structure of NumPy.
+Explanation:
+It stores elements of the same datatype in a multidimensional format.
+import numpy as np
+
+arr = np.array([1,2,3])
+________________________________________
+4. Difference Between List and NumPy Array
+Feature	List	NumPy Array
+Speed	Slow	Fast
+Memory	More	Less
+Datatype	Mixed	Same
+Mathematical Ops	Limited	Powerful
+________________________________________
+5. How do you import NumPy?
+import numpy as np
+________________________________________
+ARRAY CREATION
+6. How do you create a NumPy array?
+arr = np.array([1,2,3,4])
+________________________________________
+7. How do you create a 2D array?
+arr = np.array([
+    [1,2],
+    [3,4]
+])
+________________________________________
+8. What is np.zeros()?
+Answer:
+Creates an array filled with zeros.
+np.zeros(5)
+Output:
+[0. 0. 0. 0. 0.]
+________________________________________
+9. What is np.ones()?
+np.ones(5)
+Output:
+[1. 1. 1. 1. 1.]
+________________________________________
+10. What is np.arange()?
+Answer:
+Creates values within a range.
+np.arange(1,11)
+Output:
+[1 2 3 4 5 6 7 8 9 10]
+________________________________________
+11. What is np.linspace()?
+Answer:
+Creates equally spaced values.
+np.linspace(1,10,5)
+Output:
+[1.   3.25 5.5  7.75 10.]
+________________________________________
+ARRAY PROPERTIES
+12. What is shape?
+arr.shape
+Output:
+(3,4)
+Meaning:
+3 rows
+4 columns
+________________________________________
+13. What is ndim?
+Answer:
+Returns number of dimensions.
+arr.ndim
+________________________________________
+14. What is size?
+Answer:
+Returns total elements.
+arr.size
+________________________________________
+15. What is dtype?
+Answer:
+Returns datatype.
+arr.dtype
+________________________________________
+INDEXING & SLICING
+16. How do you access first element?
+arr[0]
+________________________________________
+17. How do you access last element?
+arr[-1]
+________________________________________
+18. How do you slice an array?
+arr[1:5]
+________________________________________
+19. Access element in 2D array?
+arr[1,2]
+Meaning:
+row 1
+column 2
+________________________________________
+RESHAPING
+20. What is reshape()?
+Answer:
+Changes array dimensions.
+arr.reshape(2,3)
+________________________________________
+21. Flatten a 2D array?
+arr.flatten()
+________________________________________
+22. Difference Between reshape() and flatten()
+reshape	flatten
+Changes shape	Converts to 1D
+Same data	New 1D array
+________________________________________
+MATHEMATICAL OPERATIONS
+23. Addition
+arr + 10
+________________________________________
+24. Multiplication
+arr * 2
+________________________________________
+25. Square
+arr ** 2
+________________________________________
+26. Square Root
+np.sqrt(arr)
+________________________________________
+27. Sum
+np.sum(arr)
+Alternative:
+arr.sum()
+________________________________________
+28. Mean
+np.mean(arr)
+Alternative:
+arr.mean()
+________________________________________
+29. Max
+arr.max()
+________________________________________
+30. Min
+arr.min()
+________________________________________
+AGGREGATION FUNCTIONS
+31. Median
+np.median(arr)
+________________________________________
+32. Standard Deviation
+np.std(arr)
+________________________________________
+33. Variance
+np.var(arr)
+________________________________________
+BOOLEAN FILTERING
+34. Find elements greater than 5
+arr[arr > 5]
+________________________________________
+35. Find even numbers
+arr[arr % 2 == 0]
+________________________________________
+36. Find odd numbers
+arr[arr % 2 != 0]
+________________________________________
+RANDOM NUMBERS
+37. Random Numbers
+np.random.rand(5)
+________________________________________
+38. Random Integers
+np.random.randint(1,100,5)
+________________________________________
+39. Set Random Seed
+np.random.seed(42)
+________________________________________
+ARRAY COMBINING
+40. Horizontal Stack
+np.hstack((a,b))
+________________________________________
+41. Vertical Stack
+np.vstack((a,b))
+________________________________________
+42. Concatenate Arrays
+np.concatenate((a,b))
+________________________________________
+AI ENGINEER IMPORTANT TOPICS
+43. Why is NumPy important in AI?
+Answer:
+Most ML and Deep Learning libraries use NumPy arrays internally.
+Examples:
+•	Pandas
+•	Scikit-Learn
+•	TensorFlow
+•	PyTorch
+________________________________________
+44. What is Vectorization?
+Answer:
+Performing operations without loops.
+Example:
+arr = np.array([1,2,3])
+
+arr * 2
+Output:
+[2 4 6]
+________________________________________
+45. Why is Vectorization Fast?
+Answer:
+•	Uses optimized C code
+•	Avoids Python loops
+•	Better CPU utilization
+________________________________________
+46. What is Broadcasting?
+Answer:
+NumPy automatically expands dimensions during operations.
+Example:
+arr = np.array([1,2,3])
+
+arr + 10
+Output:
+[11 12 13]
+________________________________________
+47. What is a Matrix?
+np.array([
+    [1,2],
+    [3,4]
+])
+________________________________________
+48. Matrix Multiplication
+np.dot(a,b)
+Alternative:
+a @ b
+________________________________________
+49. Transpose of Matrix
+arr.T
+________________________________________
+50. Why learn NumPy before ML?
+Answer:
+Because ML algorithms depend heavily on:
+•	Arrays
+•	Matrices
+•	Vectorization
+•	Broadcasting
+•	Linear Algebra
+________________________________________
+ONE-LINE SUMMARY
+Array
+NumPy Data Structure
+ndarray
+N-Dimensional Array
+shape
+Rows × Columns
+ndim
+Dimensions Count
+size
+Total Elements
+dtype
+Data Type
+reshape()
+Change Shape
+flatten()
+Convert to 1D
+Vectorization
+No Loops
+Broadcasting
+Automatic Expansion
+dot()
+Matrix Multiplication
+random()
+Generate Random Data
+________________________________________
+PRIORITY FOR AI ENGINEERS
+Topic	Priority
+Arrays	⭐⭐⭐⭐⭐
+Indexing & Slicing	⭐⭐⭐⭐⭐
+Vectorization	⭐⭐⭐⭐⭐
+Broadcasting	⭐⭐⭐⭐⭐
+Aggregations	⭐⭐⭐⭐⭐
+Reshape	⭐⭐⭐⭐⭐
+Boolean Filtering	⭐⭐⭐⭐⭐
+Matrix Operations	⭐⭐⭐⭐
+Random Numbers	⭐⭐⭐⭐
+Linear Algebra Basics	⭐⭐⭐⭐
+Master these topics and you'll know 95% of the NumPy used in real AI Engineer, Data Science, and Machine Learning projects.
+
