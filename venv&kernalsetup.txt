@@ -1,0 +1,21 @@
+cd <PROJECT_FOLDER>
+
+uv venv --python 3.12
+
+.venv\Scripts\Activate
+
+pip install jupyter ipykernel
+
+python -m ipykernel install --user --name=<KERNEL_NAME> --display-name="Python (.venv) - <PROJECT_NAME>"
+
+----------------------------------------
+
+cd Generative-AI-Mastery-Resources
+
+uv venv --python 3.12
+
+.venv\Scripts\Activate.ps1
+
+pip install jupyter ipykernel
+
+python -m ipykernel install --user --name=genai-mastery --display-name="Python (.venv) - Generative AI Mastery"

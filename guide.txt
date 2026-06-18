@@ -1,0 +1,221 @@
+Perfect. Forget TensorFlow and uv for 5 minutes.
+Let's understand the whole picture first. Once you understand it, these errors become easy to fix.
+1. What is a Python Installation?
+When you install Python:
+Python 3.11
+Python 3.12
+Python 3.14
+you are installing a Python interpreter.
+Example:
+C:\Program Files\Python311\python.exe
+or
+C:\Users\cheta\AppData\Roaming\uv\python\cpython-3.12.13\python.exe
+These are completely separate Python installations.
+________________________________________
+2. What is a Virtual Environment (venv)?
+A virtual environment is an isolated copy of Python.
+Example:
+System Python
+│
+├── Project-A
+│   └── .venv
+│
+├── Project-B
+│   └── .venv
+│
+└── Project-C
+    └── .venv
+Each project gets its own packages.
+________________________________________
+Without venv
+You install:
+pip install tensorflow
+globally.
+Now every project uses that TensorFlow version.
+Problems:
+Project A needs TensorFlow 2.15
+Project B needs TensorFlow 2.21
+Conflict.
+________________________________________
+With venv
+Project-A
+└── .venv
+    └── TensorFlow 2.15
+
+Project-B
+└── .venv
+    └── TensorFlow 2.21
+No conflict.
+________________________________________
+3. How Many venvs Should You Create?
+Good Practice
+One project = One venv
+SpamDetection
+└── .venv
+
+RAG-Chatbot
+└── .venv
+
+Resume-Agent
+└── .venv
+This is industry standard.
+________________________________________
+Bad Practice
+One huge venv
+    ├── TensorFlow
+    ├── LangChain
+    ├── OpenAI
+    ├── PyTorch
+    ├── 500 packages
+Every project shares it.
+Soon:
+Dependency conflicts
+Version issues
+Broken projects
+________________________________________
+4. What is a Kernel?
+Kernel ≠ venv
+People confuse these.
+________________________________________
+venv
+Stores:
+Python
+Packages
+Libraries
+Example:
+.venv
+├── pandas
+├── numpy
+├── tensorflow
+└── nltk
+________________________________________
+Kernel
+Runs notebook code.
+Notebook
+    ↓
+Kernel
+    ↓
+Python Environment
+________________________________________
+Example:
+print("Hello")
+The kernel executes it.
+________________________________________
+5. Relationship
+Notebook
+   ↓
+Kernel
+   ↓
+venv
+   ↓
+Packages
+________________________________________
+6. What is uv?
+Traditional:
+python -m venv .venv
+pip install pandas
+Modern:
+uv venv
+uv add pandas
+uv is simply:
+Faster pip
+Faster venv
+Better dependency manager
+That's all.
+________________________________________
+7. What Happened in Your Case?
+You have:
+Python 3.14
+Python 3.13
+Python 3.12
+Python 3.11
+installed.
+Notebook uses:
+keras
+tensorflow
+TensorFlow supports:
+3.11
+3.12
+3.13
+NOT
+3.14
+Therefore:
+Error
+________________________________________
+8. What Would I Do as a Professional?
+For AI/ML:
+Install:
+Python 3.12
+ONLY.
+________________________________________
+Projects:
+AI-Projects
+│
+├── SpamDetection
+│   └── .venv
+│
+├── RAG
+│   └── .venv
+│
+├── Agents
+│   └── .venv
+│
+└── FineTuning
+    └── .venv
+Each project:
+uv venv --python 3.12
+________________________________________
+9. What Should We Delete?
+You currently have:
+Python 3.14
+Python 3.13
+Python 3.12
+Python 3.11
+Anaconda
+This is not wrong, but for a beginner it becomes confusing.
+I would keep:
+Python 3.12
+and optionally
+Python 3.11
+for compatibility.
+________________________________________
+10. Recommended AI Setup (2026)
+Install:
+Python 3.12
+VS Code / Cursor
+Git
+uv
+Project structure:
+Project
+│
+├── .venv
+├── notebooks
+├── src
+├── data
+├── pyproject.toml
+└── README.md
+Workflow:
+git clone repo
+
+cd repo
+
+uv venv --python 3.12
+
+uv sync
+or
+uv add pandas numpy tensorflow
+Then:
+jupyter notebook
+Select:
+.venv Kernel
+Run.
+________________________________________
+My recommendation for you
+Before touching this project again:
+1.	Delete only the project's .venv.
+2.	Keep Python 3.12 and Python 3.11 installed.
+3.	Ignore Python 3.14 for AI/ML work.
+4.	Use one .venv per project.
+5.	Use Python 3.12 for all Generative AI, ML, NLP, LangChain, RAG projects.
+Next, I can show you a complete visual diagram of Python → venv → uv → pip → Jupyter Kernel → Notebook → TensorFlow so you understand how all these pieces fit together.
+
