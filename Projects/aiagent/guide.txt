@@ -1,0 +1,30 @@
+create a project with uv package manager 
+- uv init aiagent
+
+create virtual enviroment 
+- uv venv       note - you can create with specific version with this uv venv --python 1.12.6
+
+activate the virtual enviroment
+- .venv\Scripts\activate
+
+installed two dependencies 
+1. google-genai sdk it is basically sdk for gemini-api
+2. python-dotenv it is very usefull to store api-key database urls means this helps to manage the enviroment variable
+
+commmands 
+-uv add google-genai==1.12.1
+-uv add python-dotenv
+
+run project first time
+uv run main.py
+
+write a code to call gemini api 
+
+first call 
+
+changed model 
+
+count token usage 
+
+cli - using sys package 
+
