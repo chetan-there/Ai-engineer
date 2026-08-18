@@ -15,6 +15,10 @@ def main():
         print("i need a prompt!!")
         sys.exit(1)
     prompt = sys.argv[1]
+    verbose_flag = False
+    if len(sys.argv) == 3 and sys.argv[2] == "--verbose":
+        verbose_flag=True
+    prompt = sys.argv[1]
 
     messages=[types.Content(role="user", parts=[types.Part(text=prompt)]),]
 
@@ -30,12 +34,14 @@ def main():
 
     usage = response.usage_metadata
 
-    print(f"Input Tokens : {usage.prompt_token_count}")
-    print(f"Output Tokens: {usage.candidates_token_count}")
-    print(f"Total Tokens : {usage.total_token_count}")
+    if verbose_flag:
+        print(f"User prompt : {prompt}")
+        print(f"Input Tokens : {usage.prompt_token_count}")
+        print(f"Output Tokens: {usage.candidates_token_count}")
+        print(f"Total Tokens : {usage.total_token_count}")
 
     print(response.text)
 
-    print(messages)
+    
 
 main()

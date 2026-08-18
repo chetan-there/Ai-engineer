@@ -2,6 +2,12 @@ version = 1
 revision = 3
 requires-python = ">=3.14"
 
+[manifest]
+members = [
+    "aiagent",
+    "calculator",
+]
+
 [[package]]
 name = "aiagent"
 version = "0.1.0"
@@ -37,6 +43,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ba/16/9826f089383c593cdfc4a6e5aca94d9e91ae1692c57af82c3b2aa5e810f7/anyio-4.14.0-py3-none-any.whl", hash = "sha256:dd9b7a2a9799ed6552fde617b2c5df02b7fdd7d88392fc48101e51bae46164d9", size = 123506, upload-time = "2026-06-15T22:00:47.595Z" },
 ]
+
+[[package]]
+name = "calculator"
+version = "0.1.0"
+source = { virtual = "calculator" }
 
 [[package]]
 name = "certifi"
